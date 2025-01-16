@@ -2,23 +2,31 @@ const FacultyData = [
     {
         id: 1,
         name: "jatin Rane",
-        contribution:"",
+        contribution:"Website Development and Designing",
         linkedin:"",
         github:"",
         portfolio:""
     },
     {
         id: 1,
-        name: "jatin Rane",
-        contribution:"",
+        name: "Aaryesh Namdeo",
+        contribution:"Website Designing",
         linkedin:"",
         github:"",
         portfolio:""
     },
     {
         id: 1,
-        name: "jatin Rane",
-        contribution:"",
+        name: "Sneha Jain",
+        contribution:"Website Development and Designing",
+        linkedin:"",
+        github:"",
+        portfolio:""
+    },
+    {
+        id: 1,
+        name: "Kratika Gupta",
+        contribution:"Website Designing, Website Testing ",
         linkedin:"",
         github:"",
         portfolio:""
