@@ -1,8 +1,8 @@
 import "./Search.css"
-function Search(){
+function Search() {
     return (
-       <>
-        
+        <>
+            <h1>Search Page</h1>
         </>
     )
 }

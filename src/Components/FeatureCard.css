@@ -1,0 +1,14 @@
+.card{
+    background-color: var(--colorw);
+    padding: 30px;
+    text-align: left;
+    background-color: aqua;
+    text-align: center;
+}
+
+.card-head{
+    margin-bottom: 20px;
+}
+.bene-card-para{
+    line-height: 30px
+}

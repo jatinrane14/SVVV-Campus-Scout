@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    /* background-color: #73befd; */
+    background-color: #4fbffe;
+    color: white;
+    padding: 10px;
+    /* width: 100%; */
+}
+.flexcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.svvvLogo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.svvvLogo img{
+    width: 40px;
+}
+.Pname{
+    font-size: 24px;
+}
+.NavigationLinks{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+}
+.navlink{
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+/* Responsiveness */
+@media screen and (max-width:665px) {
+    .flexcon{
+        justify-content: center;
+    }
+    .Pname{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width:416px){
+    .flexcon{
+        padding: 0 10px;
+        justify-content: space-between;
+    }
+    .NavigationLinks{
+        display: none;
+    }
+}
+@media screen and (min-width:415px){
+    .Menu{
+        display: none;
+    }
+}
