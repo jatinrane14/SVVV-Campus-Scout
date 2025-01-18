@@ -1,34 +1,34 @@
-const FacultyData = [
-    {
-        id: 1,
-        name: "jatin Rane",
-        contribution:"Website Development and Designing",
-        linkedin:"",
-        github:"",
-        portfolio:""
-    },
-    {
-        id: 1,
-        name: "Aaryesh Namdeo",
-        contribution:"Website Designing",
-        linkedin:"",
-        github:"",
-        portfolio:""
-    },
-    {
-        id: 1,
-        name: "Sneha Jain",
-        contribution:"Website Development and Designing",
-        linkedin:"",
-        github:"",
-        portfolio:""
-    },
-    {
-        id: 1,
-        name: "Kratika Gupta",
-        contribution:"Website Designing, Website Testing ",
-        linkedin:"",
-        github:"",
-        portfolio:""
-    }
-]
+export const TeamData = [
+  {
+    id: 14,
+    name: "Jatin Rane",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur sint amet in, repellendus recusandae? Incidunt obcaecati fugiat cum dicta.",
+    linkedin: "",
+    Github: "",
+    instagram: "",
+  },
+  {
+    id: 12,
+    name: "Sneha Jain",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur sint amet in, repellendus recusandae? Incidunt obcaecati fugiat cum dicta.",
+    linkedin: "",
+    Github: "",
+    instagram: "",
+  },
+  {
+    id: 14,
+    name: "Aaryesh Namdeo",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur sint amet in, repellendus recusandae? Incidunt obcaecati fugiat cum dicta.",
+    linkedin: "",
+    Github: "",
+    instagram: "",
+  },
+  {
+    id: 2,
+    name: "Kratika Gupta",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur sint amet in, repellendus recusandae? Incidunt obcaecati fugiat cum dicta.",
+    linkedin: "",
+    Github: "",
+    instagram: "",
+  },
+];

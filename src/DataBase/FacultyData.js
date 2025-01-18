@@ -54,7 +54,7 @@ export const facultyData = [
       expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
     },
     {
-      id: 6,
+      id: 7,
       name: "Kratika Bewkoof",
       department: "Mathematics",
       cabin: "C-303",

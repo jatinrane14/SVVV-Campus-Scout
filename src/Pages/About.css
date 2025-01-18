@@ -1,0 +1,21 @@
+.mainTeamContainer{
+    /* border:1px solid black; */
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.mainTeamContainer {
+    /* text-align: center;  */
+    margin-bottom: 10px;
+}
+.teamhead{
+    font-size: 3vw;
+    text-align: center;
+}
+.submaintmcon{
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}

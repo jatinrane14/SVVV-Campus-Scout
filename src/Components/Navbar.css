@@ -41,6 +41,19 @@ nav{
 }
 
 
+
+
+
+.mobileNav{
+    position: absolute;
+    /* top: 20; */
+    width:100vw;   
+    height: 100vh;
+    background-color: white;;
+}
+.mobileNav span{
+    color: black;
+}
 /* Responsiveness */
 @media screen and (max-width:665px) {
     .flexcon{
@@ -63,4 +76,5 @@ nav{
     .Menu{
         display: none;
     }
+    
 }
