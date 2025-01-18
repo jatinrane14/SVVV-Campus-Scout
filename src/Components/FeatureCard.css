@@ -2,12 +2,8 @@
     background-color: var(--colorw);
     padding: 30px;
     text-align: left;
-    background-color: aqua;
+    background-color: #fff;
     text-align: center;
-}
-
-.card-head{
-    margin-bottom: 20px;
 }
 .bene-card-para{
     line-height: 30px

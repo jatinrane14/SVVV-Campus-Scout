@@ -1,4 +1,4 @@
-import { Facebook,} from 'lucide-react';
+import { Github,Linkedin} from 'lucide-react';
 import { Link } from 'react-router-dom';
 import './Footer.css'
 function Footer() {
@@ -11,7 +11,10 @@ function Footer() {
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, perspiciatis harum nihil quia corporis ipsam fuga voluptatibus temporibus perferendis consequuntur!</p>
                         <div className="socio-links">
                             <Link>
-                                <Facebook></Facebook>
+                                <Github size={26} fill='white' color='black' strokeWidth={1}/>
+                            </Link>
+                            <Link>
+                                <Linkedin size={26} fill='white' color='black' strokeWidth={1}/>
                             </Link>
                         </div>
                     </div>
@@ -20,8 +23,8 @@ function Footer() {
                         <ul>
                             <li><Link to={"/"}>Home</Link></li>
                             <li><Link to={"/"}>Faculty List</Link></li>
-                            <li><Link to={"/"}>Faculty Search</Link></li>
-                            <li><Link to={"/"}>About Us</Link></li>
+                            <li><Link to={"/Search"}>Faculty Search</Link></li>
+                            <li><Link to={"/About"}>About Us</Link></li>
                         </ul>
                     </div>
                     <div className="support-con footer-childs">
@@ -36,13 +39,14 @@ function Footer() {
                     <div className="product footer-childs">
                         <h2>Products</h2>
                         <ul>
-                            <li><Link to="#">Shades Pro</Link></li>
-                            <li><Link to="#">Essential Blocks</Link></li>
-                            <li><Link to="#">Avasta Dash</Link></li>
-                            <li><Link to="#">vApp Landing Page</Link></li>
+                            <li><Link to="#">Example</Link></li>
+                            <li><Link to="#">Link</Link></li>
+                            <li><Link to="#">Link</Link></li>
+                            <li><Link to="#">Link</Link></li>
                         </ul>
                     </div>
                 </div>
+                <p className='cpyr'>Copyright &copy 2025 SVVVCampusScout. All Right reserved</p>
             </footer>
         </>
     )

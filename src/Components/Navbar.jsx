@@ -20,6 +20,10 @@ function Navbar(){
                         <Search size={16}></Search>
                         <span>Faculty Search</span> 
                     </Link>
+                    <Link to="/FacultyList" className="navlink">
+                        <Users size={16}></Users>
+                        <span>Faculty List</span> 
+                    </Link>
                     <Link to="/About" className="navlink">
                         <Users size={16}></Users>
                         <span>About Us</span> 

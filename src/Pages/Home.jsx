@@ -6,7 +6,9 @@ function Home() {
         <>
             <main>
                 <div className='wellcomesec'>
-                    <img className='img' src={SvvvBuilding} alt="" srcSet="" />
+                    <div className='imagecontainer'>
+                    {/* <img className='img' src={SvvvBuilding} alt="" srcSet="" /> */}
+                    </div>
                     <div className='wlcmTxtAbsolute'>
                         <h1>Wellcome to SVVV Campus Scout</h1>
                     </div>
@@ -14,9 +16,9 @@ function Home() {
                 <div id='benefit-section'>
                     <div className='benefit-child-con'>
                         <div className='benefits-card-con'>
-                        <Card Fname={"Faculty List"} desc={"Browse complete list of faculty menbers"} />
-                        <Card Fname={"Cabin Location"} desc={"Find faculty Cabin numbers"} />
-                        <Card Fname={"Faculty Specialization"} desc={"Find faculty name along with their specialization"} />
+                        <Card Fname={"Faculty List"} indx={0} desc={"Browse complete list of faculty menbers"} />
+                        <Card Fname={"Cabin Location"} indx={1} desc={"Find faculty Cabin numbers"} />
+                        <Card Fname={"Faculty Specialization"} indx={2} desc={"Find faculty name along with their specialization"} />
                         </div>
                     </div>
                 </div>
