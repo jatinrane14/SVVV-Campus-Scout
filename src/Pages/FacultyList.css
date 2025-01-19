@@ -1,0 +1,15 @@
+.faculty-list{
+    max-width: 1200px;
+    margin: auto;
+}
+.faculty-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    padding: 30px;
+}
+.facultylist-card{
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* background-color: rgb(234, 239, 238); */
+}

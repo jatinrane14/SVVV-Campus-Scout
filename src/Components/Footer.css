@@ -1,7 +1,7 @@
 .footer-links{
     padding: 30px 40px;
     display: grid;
-    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 1fr 1fr;
     column-gap: 40px;
     max-width: 1300px;
     margin: auto ;
@@ -10,8 +10,14 @@
     /* border: 2px solid red; */
     justify-items: center;
 }
-.footer-con img{
-    margin-bottom: 20px;
+.ftrlogo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ftrlogo img{
+    width: 40px;
+    filter: drop-shadow(2px 2px 3px gray);
 }
 .footer-con p{
     font-size: 18px;

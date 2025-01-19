@@ -1,7 +1,7 @@
 import { Menu, Search, Users, Home } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react'
-import svvvLogo from '../assets/svvvLogo.png';
+import prlogo from '../assets/prlogo.png';
 import './Navbar.css'
 function Navbar() {
     const [sty, setstyles] = useState({ transform: "translateX(100%)" })
@@ -20,7 +20,7 @@ function Navbar() {
             <nav>
                 <div className='flexcon'>
                     <div className='svvvLogo'>
-                        <img src={svvvLogo} alt="" />
+                        <img src={prlogo} alt="" />
                         <h1 className='Pname'>SvvvCampusScout</h1>
                     </div>
                     <div className='NavigationLinks'>

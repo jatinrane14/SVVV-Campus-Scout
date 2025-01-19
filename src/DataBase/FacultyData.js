@@ -10,6 +10,24 @@ export const facultyData = [
     },
     {
       id: 2,
+      name: "Dr. Jatin Rane",
+      department: "Computer Science",
+      cabin: "A-101",
+      email: "jatinrane@svvv.edu.in",
+      phone: "(555) 123-4567",
+      expertise: ["Artificial Intelligence", "Machine Learning", "Data Science"]
+    },
+    {
+      id: 3,
+      name: "Dr. Jatin Rane",
+      department: "Computer Science",
+      cabin: "A-101",
+      email: "jatinrane@svvv.edu.in",
+      phone: "(555) 123-4567",
+      expertise: ["Artificial Intelligence", "Machine Learning", "Data Science"]
+    },
+    {
+      id: 4,
       name: "Prof.Aaryesh Namdeo",
       department: "Electrical Engineering",
       cabin: "B-205",
@@ -18,7 +36,7 @@ export const facultyData = [
       expertise: ["Digital Systems", "VLSI Design", "Embedded Systems"]
     },
     {
-      id: 3,
+      id: 5,
       name: "Dr. Sneha Jain",
       department: "Computer Science",
       cabin: "C-303",
@@ -27,7 +45,7 @@ export const facultyData = [
       expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
     },
     {
-      id: 4,
+      id: 6,
       name: "Dr. Tainali Rama",
       department: "Mathematics",
       cabin: "C-303",
@@ -36,7 +54,7 @@ export const facultyData = [
       expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
     },
     {
-      id: 5,
+      id: 7,
       name: "Dr. Jethalal Gada",
       department: "Mathematics",
       cabin: "C-303",
@@ -45,7 +63,7 @@ export const facultyData = [
       expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
     },
     {
-      id: 6,
+      id: 8,
       name: "Dr. Sonu Tapu Gada",
       department: "Mathematics",
       cabin: "C-303",
@@ -54,7 +72,7 @@ export const facultyData = [
       expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
     },
     {
-      id: 7,
+      id: 9,
       name: "Kratika Bewkoof",
       department: "Mathematics",
       cabin: "C-303",

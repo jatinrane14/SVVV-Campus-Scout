@@ -6,7 +6,7 @@ nav{
     background-color: #56affa;
     /* background-color: #4fbffe; */
     color: white;
-    padding: 10px;
+    padding: 15px;
     /* width: 100%; */
 }
 .flexcon{
@@ -24,7 +24,7 @@ nav{
     gap: 5px;
 }
 .svvvLogo img{
-    width: 40px;
+    width: 30px;
 }
 .Pname{
     font-size: 24px;
@@ -39,9 +39,6 @@ nav{
     color: aliceblue;
     text-decoration: none;
 }
-
-
-
 
 
 .mobileNav{
@@ -63,18 +60,17 @@ nav{
         font-size: 19px;
     }
 }
-@media screen and (max-width:416px){
+@media screen and (max-width:581px){
     .flexcon{
         padding: 0 10px;
         justify-content: space-between;
     }
     .NavigationLinks{
         display: none;
-    }
+    }   
 }
-@media screen and (min-width:415px){
+@media screen and (min-width:581px){
     .Menu{
         display: none;
     }
-    
 }
