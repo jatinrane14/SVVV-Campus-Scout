@@ -6,8 +6,10 @@ function About() {
     return (
         <>
             <div className="mainTeamContainer">
-                <h2 className="teamhead">Meet the Team</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, inventore?</p>
+                <div className="headparacon">
+                    <h2 className="teamhead">Meet the Team</h2>
+                    <p className="teampara">Get to known the faces behind the project</p>
+                </div>
                 <div className="submaintmcon">
                     {TeamData.map(teamd => (
                         <TeamCard Tdata={teamd}></TeamCard>

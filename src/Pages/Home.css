@@ -37,7 +37,8 @@
     grid-column-gap: 30px;
     margin: 0 auto;
     max-width: 1250px;
-    padding: 50px 0;
+    padding: 50px 10px;
+    
 }
 @media screen and (max-width: 991px){
     .benefits-card-con {
@@ -48,6 +49,7 @@
         row-gap: 30px;
         margin: auto;
         max-width: 1140px;
+        
     }
 }
 @media screen and (max-width: 767px){
@@ -72,4 +74,10 @@
 @media screen and (min-width:415px){
 
 
+}
+.benefits-card-con:hover{
+
+}
+.heading{
+    color:#007aff;
 }

@@ -1,4 +1,4 @@
-import { Menu, Search, Users, Home } from 'lucide-react';
+import { Menu, Search, Users, Home,X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react'
 import prlogo from '../assets/prlogo.png';
@@ -6,12 +6,15 @@ import './Navbar.css'
 function Navbar() {
     const [sty, setstyles] = useState({ transform: "translateX(100%)" })
     const [flag, setflag] = useState(false)
+    const navClose = ()=>{
+            setstyles({ transform: "translateX(100%)" });
+            setflag(false);
+    }
     let Mobilenavtoggle = () => {
         if (flag) {
-            setstyles({ transform: "translateX(100%)" })
-            setflag(false)
+            navClose();            
         } else {
-            setstyles({ transform: "translateX(-0%)" })
+            setstyles({ transform: "translateX(-0%)" });
             setflag(true)
         }
     }
@@ -24,20 +27,20 @@ function Navbar() {
                         <h1 className='Pname'>SvvvCampusScout</h1>
                     </div>
                     <div className='NavigationLinks'>
-                        <Link to="/" className="navlink">
-                            <Home size={16}></Home>
+                        <Link  to="/" className="navlink">
+                            {/* <Home size={16}></Home> */}
                             <span>Home</span>
                         </Link>
                         <Link to="/Search" className="navlink">
-                            <Search size={16}></Search>
+                            {/* <Search size={16}></Search> */}
                             <span>Faculty Search</span>
                         </Link>
                         <Link to="/FacultyList" className="navlink">
-                            <Users size={16}></Users>
+                            {/* <Users size={16}></Users> */}
                             <span>Faculty List</span>
                         </Link>
                         <Link to="/About" className="navlink">
-                            <Users size={16}></Users>
+                            {/* <Users size={16}></Users> */}
                             <span>About Us</span>
                         </Link>
                         <Link to="https://docs.google.com/forms/d/e/1FAIpQLSf0aH9houK3qlxPtCl6F8zHuzGSRJ7cYwIck5Z2utwIvmUZIg/viewform?usp=sharing" className="navlink" target="_blank" rel="noopener noreferrer">
@@ -45,25 +48,25 @@ function Navbar() {
                         </Link>
                     </div>
                     <div onClick={Mobilenavtoggle} className='Menu'>
-                        <Menu size={30}></Menu>
+                        {(flag!=true)?<Menu size={30}></Menu>:<X size={30}></X>}
                     </div>
                 </div>
 
                 <div style={sty} className='mobileNav'>
-                    <div className=''>
-                        <Link to="/" className="navlink">
+                    <div className='mob-navLinkcon'>
+                        <Link to="/" onClick={navClose} className="mobnavlink">
                             <Home size={16}></Home>
                             <span>Home</span>
                         </Link>
-                        <Link to="/Search" className="navlink">
+                        <Link  to="/Search" onClick={navClose} className="mobnavlink">
                             <Search size={16}></Search>
                             <span>Faculty Search</span>
                         </Link>
-                        <Link to="/FacultyList" className="navlink">
+                        <Link  to="/FacultyList" onClick={navClose} className="mobnavlink">
                             <Users size={16}></Users>
                             <span>Faculty List</span>
                         </Link>
-                        <Link to="/About" className="navlink">
+                        <Link  to="/About" onClick={navClose} className="mobnavlink">
                             <Users size={16}></Users>
                             <span>About Us</span>
                         </Link>

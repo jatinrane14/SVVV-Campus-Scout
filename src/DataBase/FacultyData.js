@@ -1,83 +1,350 @@
 export const facultyData = [
-    {
-      id: 1,
-      name: "Dr. Jatin Rane",
-      department: "Computer Science",
-      cabin: "A-101",
-      email: "jatinrane@svvv.edu.in",
-      phone: "(555) 123-4567",
-      expertise: ["Artificial Intelligence", "Machine Learning", "Data Science"]
-    },
-    {
-      id: 2,
-      name: "Dr. Jatin Rane",
-      department: "Computer Science",
-      cabin: "A-101",
-      email: "jatinrane@svvv.edu.in",
-      phone: "(555) 123-4567",
-      expertise: ["Artificial Intelligence", "Machine Learning", "Data Science"]
-    },
-    {
-      id: 3,
-      name: "Dr. Jatin Rane",
-      department: "Computer Science",
-      cabin: "A-101",
-      email: "jatinrane@svvv.edu.in",
-      phone: "(555) 123-4567",
-      expertise: ["Artificial Intelligence", "Machine Learning", "Data Science"]
-    },
-    {
-      id: 4,
-      name: "Prof.Aaryesh Namdeo",
-      department: "Electrical Engineering",
-      cabin: "B-205",
-      email: "aaryeshnamdeo@svvv.edu.in",
-      phone: "(555) 234-5678",
-      expertise: ["Digital Systems", "VLSI Design", "Embedded Systems"]
-    },
-    {
-      id: 5,
-      name: "Dr. Sneha Jain",
-      department: "Computer Science",
-      cabin: "C-303",
-      email: "snehajain@svvv.edu.in",
-      phone: "(555) 345-6789",
-      expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
-    },
-    {
-      id: 6,
-      name: "Dr. Tainali Rama",
-      department: "Mathematics",
-      cabin: "C-303",
-      email: "kratikabewkoof@svvv.edu.in",
-      phone: "(555) 345-6789",
-      expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
-    },
-    {
-      id: 7,
-      name: "Dr. Jethalal Gada",
-      department: "Mathematics",
-      cabin: "C-303",
-      email: "kratikabewkoof@svvv.edu.in",
-      phone: "(555) 345-6789",
-      expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
-    },
-    {
-      id: 8,
-      name: "Dr. Sonu Tapu Gada",
-      department: "Mathematics",
-      cabin: "C-303",
-      email: "kratikabewkoof@svvv.edu.in",
-      phone: "(555) 345-6789",
-      expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
-    },
-    {
-      id: 9,
-      name: "Kratika Bewkoof",
-      department: "Mathematics",
-      cabin: "C-303",
-      email: "kratikabewkoof@svvv.edu.in",
-      phone: "(555) 345-6789",
-      expertise: ["Applied Mathematics", "Statistics", "Numerical Analysis"]
-    }
-  ];
+  {
+    id: 1,
+    name: " Dr. Anand Rajavat",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21027&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "A-101",
+    email: "directorsviit@svvv.edu.in",
+    phone: "(555) 123-4567",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 2,
+    name: "Dr. Abhishek Singh Rathore",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=381&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "A-101",
+    email: "abhishekatujjain@live.com",
+    phone: "(555) 123-4567",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 1000,
+    name: "Prof. Atish Mishra",
+    profileURL:
+      "https://media.licdn.com/dms/image/v2/C4D03AQHglTVZJpn1cw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517492044706?e=1743033600&v=beta&t=TdUS6pTotLicwe3mkAj5SrojxLiYsYY5w81xeRvinHc",
+    department: "Computer Science & Engineering",
+    cabin: "A-101",
+    email: "atishmishra@svvv.edu.in",
+    phone: "(555) 123-4567",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 3,
+    name: "Dr. Rupali Bhartiya",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=20601&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "A-101",
+    email: " rupalibhartiya@svvv.edu.in",
+    phone: "(555) 123-4567",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 4,
+    name: "Dr. Abhishek Sharma",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221657&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "B-205",
+    email: "abhisheksharma@svvv.edu.in",
+    phone: "(555) 234-5678",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 5,
+    name: "Ms. Shweta Pandey",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=10493&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "shweta.pandey2781@gmail.com",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 6,
+    name: "Ms. Pooja Deshpande",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=379&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: " poojadeshpande@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 7,
+    name: "Dr. Harsh Pratap Singh",
+      profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=282147&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "harshpratapsingh@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 8,
+    name: "Mrs. Pallavi Kala",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=396&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "pallavikala.14june@gmail.com",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+
+  {
+    id: 9,
+    name: "Mr. Sunny Bagga",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221654&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "sunny.bagga@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 10,
+    name: "Mr. Sachin Sharma",
+    profileURL: "",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "sachinsharma@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 11,
+    name: "Mr. Neeraj Mehta",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221656&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: " neeraj.mehta@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 12,
+    name: "Mr. Virendra Dani",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221655&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "virendra.dani@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 13,
+    name: "Mr. Ankit Upadhyay",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221659&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "ankit.upadhyay@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 14,
+    name: "Mr. SHYAM GEHLOT",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=20616&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "shyamgehlot641@gmail.com",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 15,
+    name: "Mr. Pritesh Kumar Jain",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21209&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "priteshkjain@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 16,
+    name: "Mr. Akash Kanugo",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21208&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: " akashkanugo@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 17,
+    name: "Mr. VIJAY KUMAR CHAUHAN",
+    profileURL: "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=439&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: " vijay_38697@yahoo.co.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"],
+  },
+  {
+    id: 18,
+    name: "Mrs. KUSUM TILKAR",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=430&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "kusumtilkar@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 19,
+    name: "Ms. Bharti Ahuja",
+    profileURL:"",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "bhartiahuja@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },{
+    id: 20,
+    name: "Ms. Gangeshwari Sharma",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=282036&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "gangeshwarisharma@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 21,
+    name: "Mr. VISHWAS DIXIT",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=281846&resize=1&command=profile_pic&w=100&h=100",
+    department: "Computer Science & Engineering",
+    cabin: "C-303",
+    email: "vishwasdixit@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  // IT faculties
+  {
+    id: 35,
+    name: "Dr. Jigyasu Dubey",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21076&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "headit@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 36,
+    name: "Mr. Sumit Kumar Nigam",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21045&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "nigam.sumit@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 37,
+    name: "Mrs. Priyanka Gupta",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21041&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "priyanka.guptacs@gmail.com",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 38,
+    name: "Dr. Gaurav Shrivastava",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=339&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "gauravshrivastava@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 39,
+    name: "Mrs. Priya Kothari",
+    profileURL:"",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "priyakothari@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 40,
+    name: "Mrs. RICHA JAIN",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=358&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "it.richajain@gmail.com",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 41,
+    name: "Mr. Deepak Agrawal",
+    profileURL:"",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "deepakagrawal@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 42,
+    name: "Mr.Rahul Choudhary",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=20562&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "rahul8svvv@gmail.com",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 43,
+    name: "Mr. HARSHIT BHARTI",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=282260&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: " harshitbharti@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 44,
+    name: "Mr. DEVENDRA KURIL",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=281859&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "devendrakuril@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+  {
+    id: 45,
+    name: "Mrs. Jagrati Nagdiya",
+    profileURL:"https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=281732&resize=1&command=profile_pic&w=100&h=100",
+    department: "Information Technology",
+    cabin: "C-303",
+    email: "jagratinagdiya@svvv.edu.in",
+    phone: "(555) 345-6789",
+    expertise: ["AI", "ML", "Data Science"]
+  },
+];

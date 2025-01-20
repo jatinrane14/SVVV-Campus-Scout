@@ -14,11 +14,18 @@
 }
 .memberImage{
     /* border: 1px solid red; */
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    align-content: center;
 }
 .memberImage img{
     width: 100%;
+    border-radius: 50%;
+}
+.memberDetail{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
 }
 .teamSocioAcc{
     display: flex;

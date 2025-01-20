@@ -9,13 +9,22 @@
     /* text-align: center;  */
     margin-bottom: 10px;
 }
+.headparacon{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .teamhead{
     font-size: 3vw;
     text-align: center;
+    color: #007aff;
 }
 .submaintmcon{
     padding: 20px;
     gap: 20px;
     display: flex;
     flex-direction: column;
+}
+.teampara{
+    text-align: center;
 }

@@ -6,7 +6,12 @@
     text-align: center;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
+    box-shadow: 1px 2px 5px grey;
+    transition: 3s;
 }
 .bene-card-para{
     line-height: 30px
+}
+.card:hover{
+    box-shadow: 2px 4px 20px grey;
 }

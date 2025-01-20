@@ -12,7 +12,11 @@ function Footer() {
                             <img src={prlogo} alt=""></img>
                             <h4>SvvvCampusScout</h4>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, perspiciatis harum nihil quia corporis ipsam fuga voluptatibus temporibus perferendis consequuntur!</p>
+                        <p>Finding Faculty's name , their details , Cabin details and all other information regarding the Faculty's of
+                            SVVV is made easy with "SVVV Campus Scout".</p>
+                           
+
+                        
                         <div className="socio-links">
                             <Link>
                                 <Github size={26} fill='white' color='black' strokeWidth={1} />
@@ -26,7 +30,7 @@ function Footer() {
                         <h2>Pages</h2>
                         <ul>
                             <li><Link to={"/"}>Home</Link></li>
-                            <li><Link to={"/"}>Faculty List</Link></li>
+                            <li><Link to={"/FacultyList"}>Faculty List</Link></li>
                             <li><Link to={"/Search"}>Faculty Search</Link></li>
                             <li><Link to={"/About"}>About Us</Link></li>
                         </ul>

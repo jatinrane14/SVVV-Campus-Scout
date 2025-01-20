@@ -1,3 +1,31 @@
+.filter-button-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+}
+.fl-def>h3{
+    text-align: left;
+    
+}
+
+.sub-fl-btncon{
+    /* position: relative; */
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: scroll;
+    gap: 15px;
+}
+.filter-btn{
+    /* position: absolute; */
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+}
 .faculty-list{
     max-width: 1200px;
     margin: auto;
@@ -7,9 +35,50 @@
     grid-template-columns: repeat(3,1fr);
     gap: 50px;
     padding: 30px;
+    
 }
 .facultylist-card{
     padding: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     /* background-color: rgb(234, 239, 238); */
+    border-radius: 1rem;
+    transition:2s;
+
+}
+.faculty-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faculty-img img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    align-content: center;
+    border-radius: 50%;
+}
+.faculty-name{
+    color: #7d21a0;
+}
+select{
+    padding: 8px;
+    border-radius: 5px;
+}
+@media screen and (max-width:955px) {
+    .faculty-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:576px) {
+    .faculty-grid{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .filter-btn{
+        font-size: 13px;
+
+    }
+}
+.facultylist-card:hover{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 14px 30px 20px;
 }

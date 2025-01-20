@@ -7,7 +7,7 @@ function TeamCard({Tdata}){
             <div className="memberCard">
                 <div className="subMemberCard">
                     <div className="memberImage">
-                         <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="2kb"/>
+                         <img src={Tdata.profileimg}/>
                     </div>
                     <div className="memberDetail">
                         <div>
@@ -17,13 +17,13 @@ function TeamCard({Tdata}){
                             <p>{Tdata.description}</p>
                         </div>
                         <div className="teamSocioAcc">
-                            <Link to={Tdata.Github}>
+                            <Link target="_blank" to={Tdata.Github}>
                                 <Github size={20} strokeWidth={2} color="black"/>
                             </Link>
-                            <Link to={Tdata.Linkedin}>
+                            <Link target="_blank" to={Tdata.linkedin}>
                                 <Linkedin size={20} strokeWidth={2} color="black"/>
                             </Link>
-                            <Link to={Tdata.Instagram}>
+                            <Link target="_blank" to={Tdata.Instagram}>
                                 <Instagram size={20} strokeWidth={2} color="black"/>
                             </Link>
                         </div>
