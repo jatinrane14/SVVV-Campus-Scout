@@ -1,6 +1,6 @@
 .wellcomesec{
     position: relative;
-    z-index: -10;
+    z-index: -1;
     margin-top: -2px;
 }
 .wlcmTxtAbsolute{
@@ -8,7 +8,7 @@
     top: 20px;
     left: 26%;
     color: #fff;
-    font-size: 24px;
+    font-size: 1.5vw;
 }
 .imagecontainer{
     width: 100%;
@@ -18,6 +18,7 @@
     background-position: center;
     background-image: url(../assets/image.jpeg);
     /* background-image: url(../assets/svvvBuilding.jpg); */
+    /* box-shadow: inset 1px 1px 40000px #56affa; */
 } 
 #benefit-section{
     margin-top: 50px;
@@ -69,14 +70,27 @@
     
 }
 @media screen and (max-width:416px){
-     
+    .wellcomesec{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagecontainer{
+        height: 30vh;
+    }
+    .wlcmTxtAbsolute{
+        font-size: 3vw;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+    .feature-head-con h2{
+        font-size: 6vw;
+        margin-bottom: 20px;
+    }
 }
 @media screen and (min-width:415px){
-
-
-}
-.benefits-card-con:hover{
-
+    
 }
 .heading{
     color:#007aff;

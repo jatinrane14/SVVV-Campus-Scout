@@ -1,23 +1,40 @@
-import { Menu, Search, Users, Home,X } from 'lucide-react';
+import { Menu, Search, Users, Home, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react'
+import { useRef } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 import prlogo from '../assets/prlogo.png';
 import './Navbar.css'
 function Navbar() {
     const [sty, setstyles] = useState({ transform: "translateX(100%)" })
     const [flag, setflag] = useState(false)
-    const navClose = ()=>{
-            setstyles({ transform: "translateX(100%)" });
-            setflag(false);
+    const navClose = () => {
+        setstyles({ transform: "translateX(100%)" });
+        setflag(false);
     }
     let Mobilenavtoggle = () => {
         if (flag) {
-            navClose();            
+            navClose();
         } else {
             setstyles({ transform: "translateX(-0%)" });
             setflag(true)
         }
     }
+
+    // Gsap Animation
+    // let tl = gsap.timeline();
+    // let Mobilenavtoggle = () => {
+    //     tl.play();
+    // }
+    // useGSAP(() => {
+    //     tl.to("nav", {
+    //         transform: "translateX(0)",
+    //         duration: 1
+    //     })
+        
+        
+    // })
     return (
         <>
             <nav>
@@ -27,7 +44,7 @@ function Navbar() {
                         <h1 className='Pname'>SvvvCampusScout</h1>
                     </div>
                     <div className='NavigationLinks'>
-                        <Link  to="/" className="navlink">
+                        <Link to="/" className="navlink">
                             {/* <Home size={16}></Home> */}
                             <span>Home</span>
                         </Link>
@@ -48,29 +65,29 @@ function Navbar() {
                         </Link>
                     </div>
                     <div onClick={Mobilenavtoggle} className='Menu'>
-                        {(flag!=true)?<Menu size={30}></Menu>:<X size={30}></X>}
+                        {(flag != true) ? <Menu size={30}></Menu> : <X size={30}></X>}
                     </div>
                 </div>
 
                 <div style={sty} className='mobileNav'>
                     <div className='mob-navLinkcon'>
-                        <Link to="/" onClick={navClose} className="mobnavlink">
-                            <Home size={16}></Home>
+                        <Link to="/" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
+                            {/* <Home size={16}></Home> */}
                             <span>Home</span>
                         </Link>
-                        <Link  to="/Search" onClick={navClose} className="mobnavlink">
-                            <Search size={16}></Search>
+                        <Link to="/Search" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
+                            {/* <Search size={16}></Search> */}
                             <span>Faculty Search</span>
                         </Link>
-                        <Link  to="/FacultyList" onClick={navClose} className="mobnavlink">
-                            <Users size={16}></Users>
+                        <Link to="/FacultyList" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
+                            {/* <Users size={16}></Users> */}
                             <span>Faculty List</span>
                         </Link>
-                        <Link  to="/About" onClick={navClose} className="mobnavlink">
-                            <Users size={16}></Users>
+                        <Link to="/About" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
+                            {/* <Users size={16}></Users> */}
                             <span>About Us</span>
                         </Link>
-                        <Link to="/Search" className="navlink">
+                        <Link to="/Search" style={{ textDecoration: 'none' }} className="mobnavlink">
                             <span>Feedback</span>
                         </Link>
                     </div>

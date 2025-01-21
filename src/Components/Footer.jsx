@@ -39,7 +39,7 @@ function Footer() {
                         <h2>Support</h2>
                         <ul>
                             <li><Link to="#">Contact</Link></li>
-                            <li><Link to="#">Feedback</Link></li>
+                            <li><Link target='_blank' to="https://docs.google.com/forms/d/e/1FAIpQLSf0aH9houK3qlxPtCl6F8zHuzGSRJ7cYwIck5Z2utwIvmUZIg/viewform">Feedback</Link></li>
                             <li><Link to="#">Privacy Policys</Link></li>
                             <li><Link to="#">Terms & Conditions</Link></li>
                         </ul>

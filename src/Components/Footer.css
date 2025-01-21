@@ -9,6 +9,7 @@
     align-items: center;
     /* border: 2px solid red; */
     justify-items: center;
+    
 }
 .ftrlogo{
     display: flex;
@@ -25,6 +26,7 @@
 }
 .footer-con{
     padding-right:  40px;
+    
 }
 .footer-childs ul li a{
     text-decoration: none;
@@ -59,3 +61,4 @@
     text-align: center;
     margin-bottom: 20px;
 }
+

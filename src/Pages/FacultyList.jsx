@@ -49,7 +49,7 @@ function FacultyList() {
               <p className="faculty-cabin">Cabin: {faculty.cabin}</p>
               <div>
                 <Phone size={16}></Phone>
-                <pan className="faculty-contact">Contact: {faculty.phone}</pan>
+                <span className="faculty-contact">Contact: {faculty.phone}</span>
               </div>
               <div>
                 <Mail size={16}></Mail>

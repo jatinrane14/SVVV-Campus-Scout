@@ -4,9 +4,10 @@
 }
 nav{
     background-color: #56affa;
-    /* background-color: #4fbffe; */
+    /* background-color: #fff; */
     color: white;
-    padding: 15px;
+    /* color: #56affa; */
+    padding: 10px;
     /* width: 100%; */
     overflow: hidden;
 }
@@ -34,13 +35,12 @@ nav{
     display: flex;
     align-items: center;
     column-gap: 20px;
-    
 }
-.navlink{
+.navlink{  
     align-items: center;
     color: aliceblue;
     text-decoration: none;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: 1s;
 }
 .navlink:last-child{
@@ -70,12 +70,18 @@ nav{
 .mobnavlink{
     padding: 10px;
     text-align: center;
+    background-color: rgb(247, 247, 247);
+    border-radius: 5px;
 }
 .mobnavlink:last-child{
     background-color: #56affa;
     color: white;
     font-weight: bold;
 }
+.mobnavlink:last-child span{
+    color: #fff;
+}
+
 /* Responsiveness */
 @media screen and (max-width:665px) {
     .flexcon{
@@ -101,5 +107,4 @@ nav{
 }
 .navlink:hover{
     opacity: 1;
-    
 }

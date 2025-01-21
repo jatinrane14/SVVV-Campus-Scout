@@ -17,7 +17,7 @@ input{
     border-radius: 50px;
     border: none;
     border: 2px solid gray;
-    width: 30vw;
+    width: 80vh;
 }
 .resultContainer{
     padding: 30px 0;
@@ -43,7 +43,6 @@ input{
 }
 
 .facul-img-srch{
- 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,6 +53,21 @@ input{
     border-radius: 50%;
     /* border: 2px solid red; */
 }
+.fac-name{
+    text-align: center;
+    color: rgb(55 48 163 / 1);
+    margin: 3px 0 3px 0;
+}
+.facul-flex-info-con{
+    display: flex;
+
+    gap: 15px;
+}
+.DcE-con,.Dlc-con{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
 .othermsgres{
     text-align: center;
 }
@@ -61,10 +75,29 @@ input{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-top: 5px;
 } 
 .faculty-expertise p{
     background-color: rgb(224 231 255 /1);
-    padding: 5px;
+    padding: 4px 10px;
     border-radius: 20px;
     color: rgb(55 48 163 / 1);
+    font-size: 15px;
+}
+
+@media screen and (max-width:570px) {
+    input{
+        width: 75vw;
+    }
+}   
+@media screen and (max-width:796px) {
+    .search-results{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}   
+@media screen and (max-width:480px) {
+    .facul-flex-info-con{
+        flex-wrap: wrap;
+    }
 }

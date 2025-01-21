@@ -44,19 +44,27 @@ function Search() {
                 <div className='facul-img-srch'>
                   <img src={faculty.profileURL} alt={faculty.name + "Profile"} />
                 </div>
-                <h3>{faculty.name}</h3>
-                <p>Department: {faculty.department}</p>
-                <p>Cabin: {faculty.cabin}</p>
-                <div>
-                  <Mail size={16}></Mail>
-                  <span>Email: {faculty.email}</span>
+                <h3 className='fac-name'>{faculty.name}</h3>
+                <div className='facul-flex-info-con'>
+                  <div className='DcE-con'>
+                    <p><b>Department:</b> {faculty.department}</p>
+                    <p><b>Cabin:</b> {faculty.cabin}</p>
+                    <div>
+                      {/* <Mail size={16}></Mail> */}
+                      <span><b>Email:</b> {faculty.email}</span>
+                    </div>
+                  </div>
+                  <div className='Dlc-con'>
+                    <p><b>Designation: </b>{faculty.Designation}</p>
+                    <p><b>Lab Name:</b></p>
+                    <div>
+                      {/* <Phone size={16}></Phone> */}
+                      <span><b>Contact:</b> {faculty.phone}</span>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                  <Phone size={16}></Phone>
-                  <span>Contact: {faculty.phone}</span>
-                </div>
-                  <span>Expertise: </span>
-                <div  className='faculty-expertise'>
+                <span><b>Expertise:</b></span>
+                <div className='faculty-expertise'>
                   {faculty.expertise.map((exp, index) => (
                     <div>
                       <p key={index} className="">{exp}</p>
