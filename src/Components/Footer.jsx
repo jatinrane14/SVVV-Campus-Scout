@@ -6,7 +6,8 @@ function Footer() {
     return (
         <>
             <footer>
-                <hr></hr>
+                <hr className='devider'></hr>
+                <br></br>
                 <div className="footer-links">
                     <div className="footer-con">
                         <div className='ftrlogo'>
@@ -25,7 +26,7 @@ function Footer() {
                         </div>
                     </div>
                     <div className="hrlp-menu  footer-childs">
-                        <h2>Pages</h2>
+                        <h2 className='fo-p-h'>Pages</h2>
                         <ul>
                             <li><Link to={"/"}>Home</Link></li>
                             <li><Link to={"/FacultyList"}>Faculty List</Link></li>

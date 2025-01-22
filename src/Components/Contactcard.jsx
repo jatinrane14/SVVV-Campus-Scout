@@ -22,7 +22,7 @@ function Contactcard({ ContD }) {
                                 </div>
                             </div>
                         ))}
-                        <hr />
+                        <hr className='devider' />
                         <div className='contact-time'>
                             <div className='time-date'>
                                 <Clock color='gray' className="icon" size={16}></Clock>
