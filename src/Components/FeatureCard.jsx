@@ -1,12 +1,10 @@
-import { List, MapPin, GraduationCap } from 'lucide-react';
+import { List, MapPin, GraduationCap, Contact } from 'lucide-react';
 import { Link } from 'react-router-dom'
-import { useRef } from 'react';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
+
 import './FeatureCard.css';
 function FeatureCard({ icon, Fname, desc, indx }) {
     let navigationLinks = ["/FacultyList"]
-    let ic = (indx == 0) ? <List color='#56affa' size={40} /> : (indx == 1) ? <MapPin color='#56affa' size={40} /> : <GraduationCap color='#56affa' size={40} />;
+    let ic = (indx == 0) ? <List color='#56affa' size={40} /> : (indx == 1) ? <MapPin color='#56affa' size={40} /> : (indx==2)?<GraduationCap color='#56affa' size={40} />:<Contact color='#56affa' size={40}></Contact>;
 
     // gsap.registerPlugin(useGSAP);
 

@@ -1,10 +1,6 @@
-import { useRef } from 'react';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
 import Card from '../Components/FeatureCard.jsx';
 import "./Home.css"
 function Home() {
-
 
     return (
         <>
@@ -25,13 +21,14 @@ function Home() {
                     </div>
                     <div className='benefit-child-con'>
                         <div className='benefits-card-con'>
-                            <Card Fname={"Faculty List"} indx={0} desc={"Browse complete list of faculty members with their contact information, departments, and current teaching schedules."} />
+                            <Card Fname={"Faculty List"} indx={0} desc={"Browse complete list of faculty members with their contact information, departments."} />
                             <Card Fname={"Cabin Location"} indx={1} desc={"Find faculty cabin numbers and office locations across campus buildings."} />
                             <Card Fname={"Faculty Specialization"} indx={2} desc={"Find faculty members by their areas of expertise, research interests, and academic specializations. "} />
+                            <Card Fname={"Contact Details"} indx={3} desc={"Find faculty members by their areas of expertise, research interests, and academic specializations. "} />
                         </div>
                     </div>
                 </div>
-            </main> 
+            </main>
         </>
     )
 }

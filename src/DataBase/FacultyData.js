@@ -6,8 +6,6 @@
 // Physics 
 // Architecture
 // Civil
-
-
 export const facultyData = [
   {
     id: 1,
@@ -19,7 +17,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "A-101",
     email: "directorsviit@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: [
       "Computer Architecture",
       "Software Engineering",
@@ -36,7 +34,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "A-101",
     email: "abhishekatujjain@live.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -49,7 +47,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "A-101",
     email: "atishmishra@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Software Engineering", "Java", "DSA"],
   },
   {
@@ -62,7 +60,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "A-101",
     email: " rupalibhartiya@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: [
       "Network Security",
       "Distributed Systems",
@@ -79,7 +77,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "B-205",
     email: "abhisheksharma@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["TOC", "Operating System", "Compiler Design"],
   },
   {
@@ -92,7 +90,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "shweta.pandey2781@gmail.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: [".", "Java"],
   },
   {
@@ -105,7 +103,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: " poojadeshpande@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -118,7 +116,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "harshpratapsingh@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -131,7 +129,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "pallavikala.14june@gmail.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
 
@@ -145,7 +143,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "sunny.bagga@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -157,7 +155,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "sachinsharma@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Data Structure", "Opersting System"],
   },
   {
@@ -170,7 +168,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: " neeraj.mehta@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -183,7 +181,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "virendra.dani@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -196,7 +194,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "ankit.upadhyay@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -209,7 +207,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "shyamgehlot641@gmail.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Computer Network"],
   },
   {
@@ -222,7 +220,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "priteshkjain@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -235,7 +233,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: " akashkanugo@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -248,7 +246,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: " vijay_38697@yahoo.co.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -261,7 +259,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "kusumtilkar@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -273,7 +271,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "bhartiahuja@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -286,7 +284,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "gangeshwarisharma@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -299,7 +297,7 @@ export const facultyData = [
     department: "Computer Science & Engineering",
     cabin: "C-303",
     email: "vishwasdixit@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -366,7 +364,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "headit@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -379,7 +377,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "nigam.sumit@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -392,7 +390,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "priyanka.guptacs@gmail.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -405,7 +403,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "gauravshrivastava@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -417,7 +415,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "priyakothari@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -430,7 +428,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "it.richajain@gmail.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -442,7 +440,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "deepakagrawal@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -455,7 +453,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "rahul8svvv@gmail.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -468,7 +466,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: " harshitbharti@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -481,7 +479,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "devendrakuril@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -494,7 +492,7 @@ export const facultyData = [
     department: "Information Technology",
     cabin: "C-303",
     email: "jagratinagdiya@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
 
@@ -509,7 +507,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "saurabhjain@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -522,7 +520,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "reenagupta@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -535,7 +533,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "rakshachouhan@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -548,7 +546,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "tanmaykasbe@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -561,7 +559,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "sudarshan.dubey@gmail.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -574,7 +572,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "priyankakhanna@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -587,7 +585,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "sonaljohn@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -600,7 +598,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "bhaweshjoshi@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -613,7 +611,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "aanchalsharma@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -625,7 +623,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "shilpajaiswal@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -637,7 +635,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "swatisharma@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -650,7 +648,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "priyasijain@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -663,7 +661,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "shrutijain@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -676,7 +674,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: "visheshtakushwah@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -688,7 +686,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: " mridultewari@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -700,7 +698,7 @@ export const facultyData = [
     department: "Computer Applications",
     cabin: "C-303",
     email: " priyankasharma@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
 
@@ -716,7 +714,7 @@ export const facultyData = [
     department: "Law",
     cabin: "C-303",
     email: "ashutosh393@gmail.com",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -729,7 +727,7 @@ export const facultyData = [
     department: "Law",
     cabin: "C-303",
     email: "mansi.trivedi@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -741,7 +739,7 @@ export const facultyData = [
     department: "Law",
     cabin: "C-303",
     email: "pranaypatel@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -754,7 +752,7 @@ export const facultyData = [
     department: "Law",
     cabin: "C-303",
     email: "Shreyaparihar@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -766,7 +764,7 @@ export const facultyData = [
     department: "Law",
     cabin: "C-303",
     email: "shantanushastri@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -779,7 +777,7 @@ export const facultyData = [
     department: "Law",
     cabin: "C-303",
     email: " jagrutigupta@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -791,7 +789,7 @@ export const facultyData = [
     department: "Law",
     cabin: "C-303",
     email: " priyanigam@svvv.edu.in",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
   {
@@ -803,7 +801,7 @@ export const facultyData = [
     department: "Law",
     cabin: "C-303",
     email: "",
-    phone: "+91 **********",
+    phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
   },
 
@@ -1377,4 +1375,254 @@ export const facultyData = [
     phone: "+91 *******",
     expertise: ["Energy Efficiency in buildings"],
   },
+
+  //EE department
+  {
+    id: 301,
+    name: "Dr. Namit Gupta",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21122&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "director_svits@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Embedded Systems", "Microprocessors and Microcontrollers"],
+  },
+  {
+    id: 302,
+    name: "Mr. Anil Kumar Jain",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=455&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "svits.electrical@gmail.com",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 303,
+    name: "Mr. Preet Jain",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21131&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "preetjain@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 304,
+    name: "Mrs. Anjali Gupta",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21150&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "chitraanjali@yahoo.com",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 305,
+    name: "Mrs. Shraddha Mohanty",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21243&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "shraddhamohanty@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 306,
+    name: "Ms. Toshi Mandloi",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=436&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "toshi_oshin@yahoo.co.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 307,
+    name: "Mrs. Ankita Jain",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21124&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "ankitajain@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 308,
+    name: "Mrs. Neha Maheshwari",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=20812&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "nehamaheshwari@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 309,
+    name: "Ms. Alka Karketta",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21166&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "alkakarketta@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 310,
+    name: "Mr. Jitendra Managre",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=411&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "jitendramanagre@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 311,
+    name: "Mr. Nilesh Patidar",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21138&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "nileshpatidar@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 312,
+    name: "Dr. Shiraz Husain",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=10516&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "shirazhusain@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 313,
+    name: "Mr. Dilip Mandloi",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21144&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "dilipmandloi@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 314,
+    name: "Mr. NARESH PUROHIT",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=20728&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "nareshpurohit@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id:315,
+    name: "Mr. DEEPAK RATHOD",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21156&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "deepakrthd9@gmail.com",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 316,
+    name: "Mr. Shrikant Dandotiya",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21203&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "shrikantdandotiya@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 317,
+    name: "Mr. LALIT BHANWRELA",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21158&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "lalitbhanwrela@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 318,
+    name: "Dr. Swapnil Jain",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21249&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "swapniljain@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+  {
+    id: 319,
+    name: "Mr. ROHAN GUPTA",
+    Designation: "",
+    labName: "",
+    profileURL:
+      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21123&resize=1&command=profile_pic&w=100&h=100",
+    department: "Electrical and Electronics Engineering",
+    cabin: "C-303",
+    email: "rohangupta@svvv.edu.in",
+    phone: "+91 *******",
+    expertise: ["Energy Efficiency in buildings"],
+  },
+
 ];

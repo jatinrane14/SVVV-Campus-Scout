@@ -8,7 +8,7 @@ function About() {
             <div className="mainTeamContainer">
                 <div className="headparacon">
                     <h2 className="teamhead">Meet the Team</h2>
-                    <p className="teampara">Get to known the faces behind the project</p>
+                    <p className="teampara">Get to know the faces behind the project</p>
                 </div>
                 <div className="submaintmcon">
                     {TeamData.map(teamd => (

@@ -3,7 +3,8 @@
     padding: 30px 25px;
     column-gap: 20px;
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 5px 0px;
+    border: 1px solid rgba(95, 95, 104, 0.2) ;
 }
 .subMemberCard{
     display: flex;

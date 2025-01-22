@@ -44,17 +44,24 @@ function Navbar() {
                         <h1 className='Pname'>SvvvCampusScout</h1>
                     </div>
                     <div className='NavigationLinks'>
-                        <Link to="/" className="navlink">
+                        <Link to="/" className="navlink"  >
                             {/* <Home size={16}></Home> */}
                             <span>Home</span>
                         </Link>
+
                         <Link to="/Search" className="navlink">
                             {/* <Search size={16}></Search> */}
                             <span>Faculty Search</span>
                         </Link>
-                        <Link to="/FacultyList" className="navlink">
-                            {/* <Users size={16}></Users> */}
+                        
+                        {/* <Link to="/FacultyList" className="navlink">
+                             <Users size={16}></Users> 
                             <span>Faculty List</span>
+                        </Link> */}
+
+                        <Link to="/Contact"  className="navlink">
+                            {/* <Users size={16}></Users> */}
+                            <span>Contact Directory</span>
                         </Link>
                         <Link to="/About" className="navlink">
                             {/* <Users size={16}></Users> */}
@@ -83,11 +90,15 @@ function Navbar() {
                             {/* <Users size={16}></Users> */}
                             <span>Faculty List</span>
                         </Link>
+                        <Link to="/Contact" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
+                            {/* <Users size={16}></Users> */}
+                            <span>Contact Directory</span>
+                        </Link>
                         <Link to="/About" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
                             {/* <Users size={16}></Users> */}
                             <span>About Us</span>
                         </Link>
-                        <Link to="/Search" style={{ textDecoration: 'none' }} className="mobnavlink">
+                        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSf0aH9houK3qlxPtCl6F8zHuzGSRJ7cYwIck5Z2utwIvmUZIg/viewform?usp=sharing" style={{ textDecoration: 'none' }} className="mobnavlink">
                             <span>Feedback</span>
                         </Link>
                     </div>

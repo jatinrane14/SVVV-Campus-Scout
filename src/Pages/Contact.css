@@ -1,0 +1,26 @@
+.contact-head{
+    padding: 25px;
+    text-align: center;
+    color: #007aff;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 1250px;
+    margin: auto;
+    /* border: 1px solid red; */
+    padding: 50px;
+    gap: 30px;
+}
+@media screen and (max-width:570px) {
+    
+}   
+@media screen and (max-width:796px) {
+    
+}   
+@media screen and (max-width:480px) {
+    .main-container{
+        grid-template-columns: 1fr;
+        padding: 40px 30px;
+    }
+}

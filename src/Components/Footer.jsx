@@ -6,6 +6,7 @@ function Footer() {
     return (
         <>
             <footer>
+                <hr></hr>
                 <div className="footer-links">
                     <div className="footer-con">
                         <div className='ftrlogo'>
@@ -14,9 +15,6 @@ function Footer() {
                         </div>
                         <p>Finding Faculty's name , their details , Cabin details and all other information regarding the Faculty's of
                             SVVV is made easy with "SVVV Campus Scout".</p>
-                           
-
-                        
                         <div className="socio-links">
                             <Link>
                                 <Github size={26} fill='white' color='black' strokeWidth={1} />
@@ -36,11 +34,11 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="support-con footer-childs">
-                        <h2>Support</h2>
+                        <h2>Quick Links</h2>
                         <ul>
-                            <li><Link to="#">Contact</Link></li>
+                            <li><Link target='_blank' to="https://drive.google.com/file/d/1fVzFxiU6Z7inVE_GgiUWtwebjMSY2GNQ/view?usp=sharing">Academic Calender</Link></li>
                             <li><Link target='_blank' to="https://docs.google.com/forms/d/e/1FAIpQLSf0aH9houK3qlxPtCl6F8zHuzGSRJ7cYwIck5Z2utwIvmUZIg/viewform">Feedback</Link></li>
-                            <li><Link to="#">Privacy Policys</Link></li>
+                            <li><Link to={"/Contact"}>Contact Information</Link></li>
                             <li><Link to="#">Terms & Conditions</Link></li>
                         </ul>
                     </div>

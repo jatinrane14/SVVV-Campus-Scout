@@ -27,15 +27,15 @@ function FacultyList() {
             ))}
           </div> */}
           {/* By Dropdown Menu Selection */}
-            <div>
-              <select id="department" onChange={(e)=>setDepartment(e.target.value)}>
-                {departments.map((depart)=>(
-                    <option value={depart} >
-                      {depart!='all'?depart:'All Department'}
-                    </option>
-                ))}
-              </select>
-            </div>
+          <div>
+            <select id="department" onChange={(e) => setDepartment(e.target.value)}>
+              {departments.map((depart) => (
+                <option value={depart} >
+                  {depart != 'all' ? depart : 'All Department'}
+                </option>
+              ))}
+            </select>
+          </div>
 
         </div>
         <div className="faculty-grid">
@@ -45,15 +45,15 @@ function FacultyList() {
                 <img src={faculty.profileURL} alt={faculty.name + " Profile"} />
               </div>
               <h3 className="faculty-name">{faculty.name}</h3>
-              <p className="faculty-dept">Department: {faculty.department}</p>
-              <p className="faculty-cabin">Cabin: {faculty.cabin}</p>
+              <p className="faculty-dept"><b>Department:</b> {faculty.department}</p>
+              <p className="faculty-cabin"><b>Cabin:</b> {faculty.cabin}</p>
               <div>
-                <Phone size={16}></Phone>
-                <span className="faculty-contact">Contact: {faculty.phone}</span>
+                {/* <Phone size={16}></Phone> */}
+                <span className="faculty-contact"><b>Contact:</b> {faculty.phone}</span>
               </div>
               <div>
-                <Mail size={16}></Mail>
-                <span className="faculty-email">Email: {faculty.email}</span>
+                {/* <Mail size={16}></Mail> */}
+                <span className="faculty-email"><b>Email:</b> {faculty.email}</span>
               </div>
             </div>
           ))}

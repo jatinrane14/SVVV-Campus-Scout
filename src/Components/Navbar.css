@@ -40,7 +40,7 @@ nav{
     align-items: center;
     color: aliceblue;
     text-decoration: none;
-    opacity: 0.9;
+    opacity: 0.8;
     transition: 1s;
 }
 .navlink:last-child{
@@ -49,12 +49,17 @@ nav{
     border-radius: 8px;
     border: 1px solid white;
 }
-
+.faculty-op-sel{
+    background-color: #56affa;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
 .mobileNav{
     position: absolute;
     width:100%;   
     left: 0;
-    top: 65px;
+    top: 56px;
     height: 100vh;
     background-color: white;
 }
@@ -107,4 +112,12 @@ nav{
 }
 .navlink:hover{
     opacity: 1;
+    /* color: #2563ea; */
+    
+}
+.navlink:active{
+    color: green;
+}
+.active{
+    color: greenyellow;
 }

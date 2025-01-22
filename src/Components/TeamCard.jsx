@@ -23,7 +23,7 @@ function TeamCard({Tdata}){
                             <Link target="_blank" to={Tdata.linkedin}>
                                 <Linkedin size={20} strokeWidth={2} color="black"/>
                             </Link>
-                            <Link target="_blank" to={Tdata.Instagram}>
+                            <Link target="_blank" to={Tdata.instagram}>
                                 <Instagram size={20} strokeWidth={2} color="black"/>
                             </Link>
                         </div>

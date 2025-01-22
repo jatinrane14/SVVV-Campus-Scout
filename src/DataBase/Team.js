@@ -21,7 +21,7 @@ export const TeamData = [
   {
     id: 2,
     name: "Kratika Gupta",
-    profileimg:"https://media.licdn.com/dms/image/v2/D4E03AQEO1ET9qTmZWA/profile-displayphoto-shrink_400_400/B4EZSEumApHMAo-/0/1737393595721?e=1743033600&v=beta&t=YnS2WH7BVpMyIowqIb3TGB6majFTG_Q5XQwrhZbETmo",
+    profileimg:"https://media.licdn.com/dms/image/v2/D4E03AQFX_iftKpGpJA/profile-displayphoto-shrink_400_400/B4EZSEuyS4HAAs-/0/1737393646042?e=1743033600&v=beta&t=yfVISP0BmevLiVyKM1ZG43usNViwamxlOrKZZPKHMWo",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur sint amet in, repellendus recusandae? Incidunt obcaecati fugiat cum dicta.",
     linkedin: "https://www.linkedin.com/in/kratika-gupta-848225347/",
     Github: "https://github.com/KratikaGupta02",
@@ -30,9 +30,9 @@ export const TeamData = [
   {
     id: 1,
     name: "Aaryesh Namdeo",
-    profileimg:"https://instagram.fbho1-1.fna.fbcdn.net/v/t51.2885-19/473599150_3899839513676881_7427027623241580589_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fbho1-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=fGpATYVnprUQ7kNvgFtpIp2&_nc_gid=5c8d4295b8604a31b31cbe58a79a851e&edm=AHzjunoBAAAA&ccb=7-5&oh=00_AYCtFmyg7iB2UvE1vaWWEDPUWlbmeo9NGtCxAj_wfV4VEQ&oe=67946041&_nc_sid=ba8368",
+    profileimg:"https://media.licdn.com/dms/image/v2/D5603AQH2d3wFa3TExg/profile-displayphoto-shrink_400_400/B56ZSOSwxZHsAg-/0/1737554071971?e=1743033600&v=beta&t=34T5UvEPmpbEJmECkJkOw9vJsZ7PWfOL_o3cFT4acL8",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur sint amet in, repellendus recusandae? Incidunt obcaecati fugiat cum dicta.",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/aaryeah-namdeo-29294a1b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     Github: "",
     instagram: "https://www.instagram.com/iamaaryesh_n/",
   },

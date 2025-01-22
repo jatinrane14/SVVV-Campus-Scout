@@ -21,7 +21,8 @@
     /* box-shadow: inset 1px 1px 40000px #56affa; */
 } 
 #benefit-section{
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .feature-head-con{
     /* font-size: 2.5vw; */
@@ -39,8 +40,11 @@
     margin: 0 auto;
     max-width: 1250px;
     padding: 50px 10px;
-    
+    row-gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
+
 @media screen and (max-width: 991px){
     .benefits-card-con {
         display: grid;
@@ -76,7 +80,7 @@
         align-items: center;
     }
     .imagecontainer{
-        height: 30vh;
+        height: 35vh;
     }
     .wlcmTxtAbsolute{
         font-size: 3vw;
@@ -84,9 +88,18 @@
         left: 0;
         right: 0;
     }
+    .feature-head-con{
+        padding: 0 20px;
+    }
     .feature-head-con h2{
-        font-size: 6vw;
+        font-size: 10vw;
         margin-bottom: 20px;
+    }
+    .benefit-child-con{
+        padding: 20px 0;
+    }
+    .benefits-card-con{
+        padding: 0 20px;
     }
 }
 @media screen and (min-width:415px){

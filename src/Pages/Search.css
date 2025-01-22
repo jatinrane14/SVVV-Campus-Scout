@@ -94,10 +94,15 @@ input{
     .search-results{
         grid-template-columns: repeat(1,1fr);
     }
-
 }   
 @media screen and (max-width:480px) {
     .facul-flex-info-con{
         flex-wrap: wrap;
+    }
+    .searchhead{
+        font-size: 7vw;
+    }
+    .resultContainer{
+        min-height: 65vh;
     }
 }
