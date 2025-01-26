@@ -10,14 +10,13 @@ export const TeamData = [
   },
   {
     id: 12,
-    name: "Sneha Jain",
-    profileimg:"https://media.licdn.com/dms/image/v2/D4D03AQEU-DIA3Z7zIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1728743151239?e=1743033600&v=beta&t=XVM8_fgipDJUDSwEE6_z0R4IcCr39jdDLYZGBL3KEK4",
+    name: "Sneha Jain", 
+    profileimg:"https://media.licdn.com/dms/image/v2/D4D03AQHR6mkkXqoRQQ/profile-displayphoto-shrink_400_400/B4DZSOV51IGkAo-/0/1737554896009?e=1743033600&v=beta&t=perlQIZkjMxVsk-ZXpNj8Dbi5B7NsVMciVVh5nUhJik",
     description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium pariatur sint amet in, repellendus recusandae? Incidunt obcaecati fugiat cum dicta.",
     linkedin: "https://www.linkedin.com/in/sneha-jain-697452292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
     Github: "https://github.com/sneha2085",
     instagram: "https://www.instagram.com/_.sneha__jain/",
   },
-
   {
     id: 2,
     name: "Kratika Gupta",

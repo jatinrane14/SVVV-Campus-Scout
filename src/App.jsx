@@ -6,6 +6,7 @@ import About from './Pages/About.jsx'
 import Footer from './Components/Footer.jsx'
 import FacultyList from './Pages/FacultyList.jsx';
 import Contact from './Pages/Contact.jsx';
+import SyllabusPage from './Pages/Syllabus.jsx';
 import './App.css'
 
 import { useEffect } from 'react';
@@ -37,6 +38,7 @@ function App() {
             <Route path="/About" element={<About/>} />
             <Route path="/FacultyList" element={<FacultyList/>} />
             <Route path="/Contact" element={<Contact/>} />
+            <Route path="/Syllabus" element={<SyllabusPage/>} />
           </Routes>
           <Footer></Footer>
         </div>

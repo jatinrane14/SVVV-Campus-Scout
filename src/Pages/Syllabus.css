@@ -1,0 +1,69 @@
+.syllus-main{
+    max-width: 1150px;
+    margin: auto;
+}
+.filterDataCon{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+
+    padding: 20px;
+    row-gap: 20px;
+}
+.depa-yr-con{
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+.department{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.department select{
+    width: 90px;
+    width: 90%;
+}
+.year{
+    width: 50%;
+    /* border: 1px solid blue; */
+}
+.year button{
+    padding: 10px;
+}
+.bran-sem-con{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.branch{
+    width: 50%;
+    /* border: 1px solid palegreen; */
+}
+.branch select{
+    width: 50%;
+}
+.semester{
+    /* border: 1px solid blueviolet; */
+    width: 50%;
+}
+.semester select{
+    width: 50%;
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.submit-btn button{
+    padding: 10px;
+}
+.selectedResult{
+    border: 2px solid aqua;
+    padding: 20px;
+}
+.resultCard{
+    /* border: 1px solid red; */
+    padding: 30px;
+    border-radius: 15px;
+}

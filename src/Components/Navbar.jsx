@@ -63,9 +63,13 @@ function Navbar() {
                             {/* <Users size={16}></Users> */}
                             <span>Contact Directory</span>
                         </Link>
+                        <Link to="/Syllabus"  className="navlink">
+                            {/* <Users size={16}></Users> */}
+                            <span>Syllabus</span>
+                        </Link>
                         <Link to="/About" className="navlink">
                             {/* <Users size={16}></Users> */}
-                            <span>About Us</span>
+                            <span>Team</span>
                         </Link>
                         <Link to="https://docs.google.com/forms/d/e/1FAIpQLSf0aH9houK3qlxPtCl6F8zHuzGSRJ7cYwIck5Z2utwIvmUZIg/viewform?usp=sharing" className="navlink" target="_blank" rel="noopener noreferrer">
                             <span>Feedback</span>
@@ -89,6 +93,10 @@ function Navbar() {
                         <Link to="/FacultyList" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
                             {/* <Users size={16}></Users> */}
                             <span>Faculty List</span>
+                        </Link>
+                        <Link to="/Syllabus" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
+                            {/* <Users size={16}></Users> */}
+                            <span>University Syllabus</span>
                         </Link>
                         <Link to="/Contact" style={{ textDecoration: 'none' }} onClick={navClose} className="mobnavlink">
                             {/* <Users size={16}></Users> */}

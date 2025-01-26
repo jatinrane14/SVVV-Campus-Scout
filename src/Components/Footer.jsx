@@ -5,8 +5,8 @@ import prlogo from '../assets/prlogo.png'
 function Footer() {
     return (
         <>
-            <footer>
-                <hr className='devider'></hr>
+            <hr className='devider'></hr>
+            <footer id='footer-section'>
                 <br></br>
                 <div className="footer-links">
                     <div className="footer-con">
@@ -53,7 +53,7 @@ function Footer() {
                         </ul>
                     </div> */}
                 </div>
-                <p className='cpyr'>Copyright &copy 2025 SVVVCampusScout. All Right reserved</p>
+                <p className='cpyr'>Copyright &copy; 2025 SVVVCampusScout. All Right reserved</p>
             </footer>
         </>
     )

@@ -24,7 +24,9 @@ function Home() {
                             <Card Fname={"Faculty List"} indx={0} desc={"Browse complete list of faculty members with their contact information, departments."} />
                             <Card Fname={"Cabin Location"} indx={1} desc={"Find faculty cabin numbers and office locations across campus buildings."} />
                             <Card Fname={"Faculty Specialization"} indx={2} desc={"Find faculty members by their areas of expertise, research interests, and academic specializations. "} />
-                            <Card Fname={"Contact Details"} indx={3} desc={"Find faculty members by their areas of expertise, research interests, and academic specializations. "} />
+                            <Card Fname={"Contact Details"} indx={3} desc={"Find Contact Informations for Account Section, ERP section, Examination centre and etc..."} />
+                            <Card Fname={"University Syllabus"} indx={4} desc={"Find Contact Informations for Account Section, ERP section, Examination centre and etc..."} />
+                            <Card Fname={"Previous Year Question"}  desc={"Find Contact Informations for Account Section, ERP section, Examination centre and etc..."} />
                         </div>
                     </div>
                 </div>

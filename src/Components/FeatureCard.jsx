@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 import './FeatureCard.css';
 function FeatureCard({ icon, Fname, desc, indx }) {
-    let navigationLinks = ["/FacultyList","/Search","/Search","/Contact"]
+    let navigationLinks = ["/FacultyList","/Search","/Search","/Contact","/Syllabus"]
     let ic = (indx == 0) ? <List color='#56affa' size={40} /> : (indx == 1) ? <MapPin color='#56affa' size={40} /> : (indx==2)?<GraduationCap color='#56affa' size={40} />:<Contact color='#56affa' size={40}></Contact>;
 
     // gsap.registerPlugin(useGSAP);
