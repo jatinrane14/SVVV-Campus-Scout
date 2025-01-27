@@ -27,7 +27,7 @@ function SyllabusPage() {
     ).map(item => item.sem))];
     // console.log(semesters)
     const filterResult = () => {
-        if(filterbatch && filterdepartment && filterbranch && filtersemester){
+        if (filterbatch && filterdepartment && filterbranch && filtersemester) {
             const syllabus = SyllabusData.filter(
                 sem => sem.batch === filterbatch &&
                     sem.branch === filterbranch &&
@@ -35,7 +35,7 @@ function SyllabusPage() {
             );
             setfilterSyllabus(syllabus);
         }
-        else{
+        else {
 
         }
         console.log(filterredSyllbus)
@@ -48,11 +48,14 @@ function SyllabusPage() {
                     <div className="depa-yr-con">
                         <div className="year">
                             <h3>Select Batch: </h3>
+                            <div className="btn-con">
                             {
                                 year.map(yr => (
                                     <button key={yr} style={(yr == filterbatch) ? { backgroundColor: "#56affa", color: "white", fontWeight: "bold" } : { backgroundColor: "" }} value={yr} onClick={() => setbatch(yr)}>{yr}</button>
                                 ))
                             }
+                            </div>
+                            
                         </div>
                         <div className="department">
                             <h3>Select Department</h3>
@@ -99,21 +102,23 @@ function SyllabusPage() {
                     <div>
                         {filterredSyllbus.map(data => (
                             <div className="resultCard">
-                            <div>
                                 <div>
-                                    <h4>{data.syllabusLink}</h4>
+                                    <div>
+                                        <h4>{data.syllabusLink}</h4>
+                                    </div>
+                                    <div>
+                                        <span>{data.batch}</span>
+                                    </div>
                                 </div>
-                                <div>
-                                    <span>{data.batch}</span>
+                                <div className="download-option">
+                                    {/* <Link>
+                                        
+                                    </Link> */}
                                 </div>
                             </div>
-                            <div className="download-option">
-
-                            </div>
-                        </div>
                         )
                         )}
-                    </div>
+                    </div> 
                 </div>
             </div>
 

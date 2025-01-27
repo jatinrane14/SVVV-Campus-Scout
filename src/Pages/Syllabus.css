@@ -10,6 +10,9 @@
     padding: 20px;
     row-gap: 20px;
 }
+select{
+    cursor: pointer;
+}
 .depa-yr-con{
     display: flex;
     align-items: center;
@@ -29,8 +32,15 @@
     width: 50%;
     /* border: 1px solid blue; */
 }
+.btn-con{
+    display: flex;
+    gap: 20px;
+}
 .year button{
     padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
 .bran-sem-con{
     display: flex;
@@ -43,6 +53,7 @@
 }
 .branch select{
     width: 50%;
+    
 }
 .semester{
     /* border: 1px solid blueviolet; */
@@ -59,11 +70,14 @@
     padding: 10px;
 }
 .selectedResult{
-    border: 2px solid aqua;
+    /* border: 2px solid aqua; */
     padding: 20px;
 }
 .resultCard{
-    /* border: 1px solid red; */
-    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
     border-radius: 15px;
+    display: flex;
+    max-width: 900px;
+    margin: auto;
 }
