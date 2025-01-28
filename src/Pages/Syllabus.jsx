@@ -1,7 +1,9 @@
 import { SyllabusData } from "../DataBase/Syllabus"
 import { useState } from "react"
+import { Download } from 'lucide-react'
+import { Link } from "react-router-dom"
 import './Syllabus.css'
-import { facultyData } from "../DataBase/FacultyData";
+// import Button from '@mui/material/Button';
 function SyllabusPage() {
     const [filterbatch, setbatch] = useState(null);
     const [filterdepartment, setDepartment] = useState(null);
@@ -35,9 +37,6 @@ function SyllabusPage() {
             );
             setfilterSyllabus(syllabus);
         }
-        else {
-
-        }
         console.log(filterredSyllbus)
     };
     return (
@@ -47,7 +46,7 @@ function SyllabusPage() {
                 <div className="filterDataCon">
                     <div className="depa-yr-con">
                         <div className="year">
-                            <h3>Select Batch: </h3>
+                            <h3><span className="mandatory">*</span>Select Batch: </h3>
                             <div className="btn-con">
                             {
                                 year.map(yr => (
@@ -58,7 +57,7 @@ function SyllabusPage() {
                             
                         </div>
                         <div className="department">
-                            <h3>Select Department</h3>
+                            <h3><span className="mandatory">*</span>Select Department</h3>
                             <select onChange={(e) => setDepartment(e.target.value)}>
                                 {
                                     departments.map(dep => (
@@ -72,7 +71,7 @@ function SyllabusPage() {
                     </div>
                     <div className="bran-sem-con">
                         <div className="branch">
-                            <h3>Select Branch</h3>
+                            <h3><span className="mandatory">*</span>Select Branch</h3>
                             {
                                 <select onChange={(e) => setbranch(e.target.value)}>
                                     {branches.map(bran => (
@@ -83,7 +82,7 @@ function SyllabusPage() {
                             }
                         </div>
                         <div className="semester">
-                            <h3>Sellect Semester</h3>
+                            <h3><span className="mandatory">*</span>Sellect Semester</h3>
                             {
                                 <select onChange={(e) => setsemester(e.target.value)}>
                                     {semesters.map(bran => (
@@ -95,25 +94,27 @@ function SyllabusPage() {
                         </div>
                     </div>
                     <div className="submit-btn">
-                        <button onClick={filterResult}>Submit </button>
+                    <button onClick={filterResult}>Get Syllabus</button>
                     </div>
                 </div>
                 <div className="selectedResult">
                     <div>
                         {filterredSyllbus.map(data => (
                             <div className="resultCard">
-                                <div>
-                                    <div>
-                                        <h4>{data.syllabusLink}</h4>
+                                <div className="con1">
+                                    <div className="syName">
+                                        <h4>{data.syllabusName}</h4>
                                     </div>
-                                    <div>
+                                    <div className="batch">
                                         <span>{data.batch}</span>
+                                        <span> - {data.branch}</span>
                                     </div>
                                 </div>
                                 <div className="download-option">
-                                    {/* <Link>
-                                        
-                                    </Link> */}
+                                    <Link target="_blank" to={data.syllabusLink}>
+                                   <Download></Download>
+                                    
+                                    </Link>
                                 </div>
                             </div>
                         )
