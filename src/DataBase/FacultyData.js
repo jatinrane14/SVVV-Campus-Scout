@@ -1043,7 +1043,7 @@ export const facultyData = [
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=111479&resize=1&command=profile_pic&w=100&h=100",
     department: "Architecture",
     cabin: "C-303",
-    email: "saurabhjain@svvv.edu.in",
+    email: " directorarchitecture@svvv.edu.in",
     phone: "+91 *******",
     expertise: ["Energy Efficiency in buildings"],
   },
