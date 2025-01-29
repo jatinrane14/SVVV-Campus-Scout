@@ -141,7 +141,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221654&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "",
+    cabin: "PL 2 LAB - SVVV/SVIIT/CSE/BLOCK 1/LAB 5",
     email: "sunny.bagga@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -153,7 +153,7 @@ export const facultyData = [
     labName: "",
     profileURL: " https://svvv.edu.in/images/system/noprofile.jpg",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Main block - SVVV/SVIIT/CSE/BLOCK 1/C 14",
     email: "sachinsharma@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Data Structure", "Opersting System"],
@@ -166,7 +166,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221656&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "209 - SVVV/SVIIT/CSE/209/04",
     email: " neeraj.mehta@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -179,7 +179,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221655&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "PL 1 LAB - SVVV/SVIIT/CSE/BLOCK 1/LAB 11",
     email: "virendra.dani@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -192,7 +192,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=221659&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Faculty cabin CSE - SVVV/SVIIT/CSE/BLOCK 3/newcabin 2",
     email: "ankit.upadhyay@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -205,7 +205,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=20616&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Main block - SVVV/SVIIT/CSE/BLOCK 1/C 07",
     email: "shyamgehlot641@gmail.com",
     phone: "+91 ----------",
     expertise: ["Computer Network"],
@@ -218,7 +218,7 @@ export const facultyData = [
     profileURL:
       "https://media.licdn.com/dms/image/v2/D4D03AQFDSGxykCT94g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1642840643297?e=1743033600&v=beta&t=gj5eDByPgklZqvTOElj5jnCAopu-Qwioa5a1u_PdY2M",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "219 - SVVV/SVIIT/CSE/219 B/02",
     email: "priteshkjain@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -231,7 +231,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21208&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Faculty cabin IT - SVVV/SVIIT/CSE/BLOCK 3/newcabin 1",
     email: " akashkanugo@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -244,7 +244,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=439&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "319 - SVVV/SVIIT/IT/319/C 16",
     email: " vijay_38697@yahoo.co.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -257,7 +257,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=430&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Main block - SVVV/SVIIT/CSE/BLOCK 1/C 1",
     email: "kusumtilkar@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -269,7 +269,7 @@ export const facultyData = [
     labName: "",
     profileURL: "https://svvv.edu.in/images/system/noprofile.jpg",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Project Lab - SVVV/SVIIT/CSE/BLOCK 1/ lab 01",
     email: "bhartiahuja@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -282,7 +282,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=282036&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Faculty Cabin - CSE SVVV/SVIIT/CSE/BLOCK 1/new cabin 4",
     email: "gangeshwarisharma@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -295,7 +295,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=281846&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "209 - SVVV/SVIIT/CSE/209 /03",
     email: "vishwasdixit@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
@@ -308,7 +308,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=367&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "223 - SVVV/SVIIT/CSE/223/01",
     email: "nikhilchaturvedi@svvv.edu.in",
     phone: "9589522331",
     expertise: ["Operating System", "Data Science"],
@@ -321,7 +321,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=20777&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Old Forensic LAB - SVVV/SVIIT/CSE/Block 3/04",
     email: "alpeshsoni@svvv.edu.in",
     phone: "9993305588",
     expertise: ["Operating System", "Data Science"],
@@ -332,9 +332,9 @@ export const facultyData = [
     Designation: "",
     labName: "",
     profileURL:
-      "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=20777&resize=1&command=profile_pic&w=100&h=100",
+      "https://svvv.edu.in/images/system/noprofile.jpg",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "Facluty cabin CSE - SVVV/SVIIT/CSE/BLOCK 1/new cabin 1",
     email: "neha.agrawal@svvv.edu.in",
     phone: "",
     expertise: ["Operating System", "Data Science"],
@@ -347,7 +347,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21031&resize=1&command=profile_pic&w=100&h=100",
     department: "Computer Science & Engineering",
-    cabin: "C-303",
+    cabin: "PG Block (IT) - SVVV/SVIIT/IT/PG Block C /08",
     email: "paridhinigam@svvv.edu.in",
     phone: "",
     expertise: ["Operating System", "Data Science"],
@@ -362,7 +362,7 @@ export const facultyData = [
     profileURL:
       "https://svvv.edu.in/userpanel/ImageViewer.aspx?imgID=21076&resize=1&command=profile_pic&w=100&h=100",
     department: "Information Technology",
-    cabin: "C-303",
+    cabin: "",
     email: "headit@svvv.edu.in",
     phone: "+91 ----------",
     expertise: ["Operating System", "Data Science"],
