@@ -50,11 +50,10 @@ function SyllabusPage() {
                             <div className="btn-con">
                                 {
                                     year.map(yr => (
-                                        <button key={yr} style={(yr == filterbatch) ? { backgroundColor: "#56affa", color: "white", fontWeight: "bold" } : { backgroundColor: "" }} value={yr} onClick={() => setbatch(yr)}>{yr}</button>
+                                        <button key={yr} style={(yr == filterbatch) ? { backgroundColor: "#007aff", color: "white", fontWeight: "bold" } : { backgroundColor: "" }} value={yr} onClick={() => setbatch(yr)}>{yr}</button>
                                     ))
                                 }
                             </div>
-
                         </div>
                         <div className="department">
                             <h3><span className="mandatory">*</span>Select Department</h3>
@@ -72,7 +71,7 @@ function SyllabusPage() {
                     <div className="bran-sem-con">
                         <div className="branch">
                             <h3><span className="mandatory">*</span>Select Branch</h3>
-                            {
+                            { 
                                 <select onChange={(e) => setbranch(e.target.value)}>
                                     {branches.map(bran => (
                                         <option key={bran} value={bran}>{bran}</option>
@@ -87,7 +86,7 @@ function SyllabusPage() {
                             {
                                 <select onChange={(e) => setsemester(e.target.value)}>
                                     {semesters.map(sem => (
-                                        <option key={sem} value={sem}>{sem}</option>
+                                        <option key={sem+sem.batch} value={sem}>{sem}</option>
                                     )
                                     )}
                                     <option>Select Semester</option>
@@ -102,7 +101,7 @@ function SyllabusPage() {
                 <div className="selectedResult">
                     <div>
                         {filterredSyllbus.map(data => (
-                            <div className="resultCard">
+                            <div key={data.batch + data.syllabusName + data.branch} className="resultCard">
                                 <div className="con1">
                                     <div className="syName">
                                         <h4>{data.syllabusName}</h4>
@@ -115,7 +114,6 @@ function SyllabusPage() {
                                 <div className="download-option">
                                     <Link target="_blank" to={data.syllabusLink}>
                                         <Download></Download>
-
                                     </Link>
                                 </div>
                             </div>
@@ -124,7 +122,6 @@ function SyllabusPage() {
                     </div>
                 </div>
             </div>
-
         </>
     )
 }

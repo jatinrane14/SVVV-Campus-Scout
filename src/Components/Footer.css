@@ -51,12 +51,9 @@ footer{
     list-style: none;
     line-height: 38px;
 }
-.socio-links a img{
-    width: 30px;
-    margin-right: 20px;
-}
-.socio-links a img:hover{
-    fill: var(--color-btn);
+.socio-links{
+    display: flex;
+    gap: 5px;
 }
 @media screen and (max-width: 958px){
     .footer-con p{

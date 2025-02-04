@@ -27,7 +27,7 @@ export const ContactData = [
         DepartmentName: "Account Section",
         contact:[
             {
-                name:"Gajendra Sir",
+                name:"Gajendra Sen Sir",
                 phone:"+91 8889877877",
                 email:"department@gmail.com",
             },

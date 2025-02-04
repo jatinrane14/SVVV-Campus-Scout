@@ -1,11 +1,15 @@
+
+
 .syllus-main{
     max-width: 1150px;
     margin: auto;
     padding: 20px 0;
+    border-radius: 1rem;
     
 }
 .mandatory{
     color: red;
+    font-size: 12px;
 }
 .syll-head{
     text-align: center;
@@ -13,14 +17,14 @@
     /* color: #283593; */
     color: #007aff;
     padding-bottom: 1rem;
+
 }
 .filterDataCon{
     display: flex;
     flex-direction: column;
     /* border: 1px solid red; */
-
     padding: 20px;
-    row-gap: 20px;
+    row-gap: 0px;
     box-shadow: rgba(95, 95, 104, 0.2) 0px 7px 10px 0px;
 }
 select{
@@ -30,22 +34,22 @@ select{
 .depa-yr-con{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     padding: 5px 20px;
     justify-content: space-between;
     /* border: 2px solid green; */
+    transform: 0.5s;
 }
 .department{
     /* border: 1px solid black; */
-    width: 50%;
-    
-
+    min-width: 50%;
 }
 .department select{
     width: 90px;
     width: 90%;
 }
 .year{
-    width: 50%;
+    min-width: 50%;
     /* border: 1px solid blue; */
 }
 .btn-con{
@@ -67,7 +71,7 @@ select{
     padding: 20px;
 }
 .branch{
-    width: 50%;
+    min-width: 50%;
     /* border: 1px solid palegreen; */
 }
 .branch select{
@@ -76,7 +80,7 @@ select{
 }
 .semester{
     /* border: 1px solid blueviolet; */
-    width: 50%;
+    min-width: 50%;
 }
 .semester select{
     width: 50%;
@@ -85,14 +89,26 @@ select{
     display: flex;
     justify-content: center;
     align-items: center;
-}.submit-btn button{
-    padding: 10px 15px;
+    /* border: 1px solid red; */
+
+}
+
+.submit-btn button{
+    padding: 10px 25px;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
-    color: #007aff;
+    color: white;
     font-weight: bold;
-    border:0.1rem solid rgb(223, 213, 213);
+    font-size: 15px;
+    background-color: #007aff;
+    border-color: #001aff;
+    margin-right: 180px;
+    margin-top: 10px;
+}
+.submit-btn button:hover{
+    transition: 0.5s;
+    box-shadow: inset 1px -1px 8px rgb(159, 159, 159);
 }
 .selectedResult{
     /* border: 2px solid aqua; */
@@ -119,3 +135,30 @@ select{
     display: flex;
     align-items: center;
 }
+
+/*  Responsiveness  CSS Syllabus Page*/
+
+
+@media screen and (max-width:743px){
+    .submit-btn{
+        padding: 0 20px;
+        width: 100%;
+    }
+    .submit-btn button{
+        margin-left: 1px;
+    }
+}
+@media screen and (max-width:600px) {
+    .syll-head{
+        font-size: 8vw;
+    }
+    .depa-yr-con,.bran-sem-con{
+        flex-wrap: wrap;    
+        row-gap: 20px;        
+    }
+
+
+    .branch,.semester,.year,.department{
+        min-width: 100%;
+    }
+}   

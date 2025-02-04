@@ -24,8 +24,6 @@ function App() {
 
     return null;
 }
-
-
   return (
     <>
       <Router>

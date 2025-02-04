@@ -17,10 +17,10 @@ function Footer() {
                         <p>Finding Faculty's name , their details , Cabin details and all other information regarding the Faculty's of
                             SVVV is made easy with "SVVV Campus Scout".</p>
                         <div className="socio-links">
-                            <Link>
+                            <Link to={"https://github.com/jatinrane14/SVVV-Campus-Scout"}>
                                 <Github size={26} fill='white' color='black' strokeWidth={1} />
                             </Link>
-                            <Link>
+                            <Link to={""}>
                                 <Linkedin size={26} fill='white' color='black' strokeWidth={1} />
                             </Link>
                         </div>
