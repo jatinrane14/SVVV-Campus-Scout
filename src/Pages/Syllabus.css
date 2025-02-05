@@ -156,8 +156,6 @@ select{
         flex-wrap: wrap;    
         row-gap: 20px;        
     }
-
-
     .branch,.semester,.year,.department{
         min-width: 100%;
     }

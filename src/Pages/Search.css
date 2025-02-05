@@ -21,12 +21,13 @@ input{
 }
 .resultContainer{
     padding: 30px 0;
-    width: 100vw;
+    /* width: 100vw; */
     /* height: 60vh; */
     min-height: 60vh;
     /* height: 50vh; */
     /* text-align: center; */
     /* border: 2px solid green; */
+    transition: 0s;
 }
 .search-results{
     max-width: 1200px;
@@ -36,6 +37,7 @@ input{
     grid-template-columns: repeat(2,1fr);
     padding: 20px;
     gap: 20px;
+    
 }
 .faculty-card{
     padding: 20px;
@@ -76,7 +78,9 @@ input{
     flex-direction: row;
     gap: 10px;
     margin-top: 5px;
+    flex-wrap: wrap;
 } 
+
 .faculty-expertise p{
     background-color: rgb(224 231 255 /1);
     padding: 4px 10px;
@@ -93,6 +97,9 @@ input{
 @media screen and (max-width:796px) {
     .search-results{
         grid-template-columns: repeat(1,1fr);
+    }
+    .faculty-expertise{
+        font-size: medium;
     }
 }   
 @media screen and (max-width:480px) {

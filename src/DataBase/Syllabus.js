@@ -153,50 +153,31 @@ export const SyllabusData = [
 
 
 
-
   // 2023- Batch Syllabus
   {
     department: "B.Tech",
-    batch: "2023-27",
+    batch: "2023-27 & 2024-28",
     branch: "CSE",
     sem: "1",
     syllabusName: "I_Master_Syllabus_AIML-BTech(CSE)-2023-27",
-    syllabusLink: "dv",
+    syllabusLink: "https://svvv.edu.in/Department/SyllabusComputer%20Science%20&%20Engineering/SVIIT_Syllabus_BT_CSE_I-SEM__23-27_04.01.2023.pdf",
   },
   {
     department: "B.Tech",
-    batch: "2023-27",
+    batch: "2023-27 & 2024-28",
     branch: "CSE",
     sem: "2",
     syllabusName: "II_Master_Syllabus_AIML-BTech(CSE)-2023-27",
-    syllabusLink: "dv",
+    syllabusLink: "https://svvv.edu.in/Department/SyllabusComputer%20Science%20&%20Engineering/2.SVIIT_Syllabus_BT_CSE_II-SEM__23-27_18.10.2023.pdf",
   },
   {
     department: "B.Tech",
-    batch: "2023-27",
+    batch: "2023-27 & 2024-28",
     branch: "CSE",
     sem: "3",
     syllabusName: "III_Master_Syllabus_AIML-BTech(CSE)-2023-27",
-    syllabusLink: "dv",
+    syllabusLink: "https://svvv.edu.in/Department/SyllabusComputer%20Science%20&%20Engineering/Syllabus_BTech_CSE_III_Sem_2023-2027_12.08.2024.pdf",
   },
 
 
-
-
-
-
-
-
-
-
-  // 2024-28
-
-  {
-    department: "B.Tech",
-    batch: "2024-28",
-    branch: "CSE",
-    sem: "3",
-    syllabusName: "III_Master_Syllabus_AIML-BTech(CSE)-2023-27",
-    syllabusLink: "dv",
-  },
 ];

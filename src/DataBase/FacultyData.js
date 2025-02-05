@@ -21,7 +21,6 @@ export const facultyData = [
     expertise: [
       "Computer Architecture",
       "Software Engineering",
-      "System Management",
     ],
   },
   {
@@ -64,7 +63,6 @@ export const facultyData = [
     expertise: [
       "Network Security",
       "Distributed Systems",
-      "Cyber Ethics and Social Media Analytics",
     ],
   },
   {
@@ -1388,7 +1386,7 @@ export const facultyData = [
     cabin: "C-303",
     email: "director_svits@svvv.edu.in",
     phone: "+91 *******",
-    expertise: ["Embedded Systems", "Microprocessors and Microcontrollers"],
+    expertise: ["Embedded Systems","Microprocessors, ontrollers"],
   },
   {
     id: 302,
