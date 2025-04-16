@@ -48,7 +48,7 @@ function Search() {
                 <div className='facul-flex-info-con'>
                   <div className='DcE-con'>
                     <p><b>Department:</b> {faculty.department}</p>
-                    <p><b>Cabin:</b> {faculty.cabin}</p>
+                    <p><b>Cabin:</b> {faculty.cabin}<span className='cabinFullCard'>!</span></p>
                     <div>
                       {/* <Mail size={16}></Mail> */}
                       <span><b>Email:</b> {faculty.email}</span>
