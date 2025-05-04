@@ -1,6 +1,6 @@
 // Code is written by JATIN RANE
 import { useState } from 'react'
-import { facultyData } from '../DataBase/FacultyData';
+import { facultyData } from '../../DataBase/FacultyData';
 import { Mail, Phone } from 'lucide-react'
 import './Search.css'
 function Search() {

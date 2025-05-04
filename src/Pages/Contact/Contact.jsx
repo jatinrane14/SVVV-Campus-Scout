@@ -1,6 +1,6 @@
 import './Contact.css'
-import Contactcard from '../Components/Contactcard.jsx';
-import {ContactData} from '../DataBase/ContactData.js'
+import Contactcard from '../../Components/Contactcard.jsx';
+import {ContactData} from '../../DataBase/ContactData.js'
 function Contact() {
     return (
         <>

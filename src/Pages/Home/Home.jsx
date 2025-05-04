@@ -1,4 +1,4 @@
-import Card from '../Components/FeatureCard.jsx';
+import Card from '../../Components/FeatureCard.jsx';
 import "./Home.css"
 function Home() {
 

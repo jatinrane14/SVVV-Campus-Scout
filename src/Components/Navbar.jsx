@@ -73,7 +73,12 @@ function Navbar() {
                         </Link>
                         <Link to="https://docs.google.com/forms/d/e/1FAIpQLSf0aH9houK3qlxPtCl6F8zHuzGSRJ7cYwIck5Z2utwIvmUZIg/viewform?usp=sharing" className="navlink" target="_blank" rel="noopener noreferrer">
                             <span>Feedback</span>
+                        </Link> 
+
+                        <Link to="/Login" className="navlink">
+                            <span>Login</span>
                         </Link>
+
                     </div>
                     <div onClick={Mobilenavtoggle} className='Menu'>
                         {(flag != true) ? <Menu size={30}></Menu> : <X size={30}></X>}

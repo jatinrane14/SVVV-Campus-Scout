@@ -1,4 +1,4 @@
-import { facultyData } from "../DataBase/FacultyData";
+import { facultyData } from "../../DataBase/FacultyData";
 import { useState } from "react";
 import { Mail, Phone } from 'lucide-react'
 import './FacultyList.css'

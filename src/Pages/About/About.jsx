@@ -1,5 +1,5 @@
-import TeamCard from "../Components/TeamCard";
-import { TeamData } from "../DataBase/Team.js"
+import TeamCard from "../../Components/TeamCard.jsx";
+import { TeamData } from "../../DataBase/Team.js"
 import "./About.css"
 
 function About() {

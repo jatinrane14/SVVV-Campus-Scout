@@ -1,4 +1,4 @@
-import { SyllabusData } from "../DataBase/Syllabus"
+import { SyllabusData } from "../../DataBase/Syllabus"
 import { useState } from "react"
 import { Download } from 'lucide-react'
 import { Link } from "react-router-dom"
