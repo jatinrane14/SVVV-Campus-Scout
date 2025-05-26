@@ -1,0 +1,5 @@
+.themeButtom{
+    background-color: var(--primary-nav-bg);
+    border: none;
+    color: var(--primary-color);
+}

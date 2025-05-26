@@ -8,37 +8,39 @@ import FacultyList from './Pages/FacultyList/FacultyList.jsx';
 import Contact from './Pages/Contact/Contact.jsx';
 import SyllabusPage from './Pages/Syllabus/Syllabus.jsx';
 import Login from './Pages/Login/Login.jsx';
-import './App.css'
-
+import Notes from './Pages/Notes/notes.jsx'
 import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
+
 function App() {
   function ScrollToTop() {
-    const { pathname } = useLocation();
-
-    useEffect(() => {
+      const { pathname } = useLocation();
+      useEffect(() => {
         window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
+          top: 0,
+          behavior: 'smooth'
         });
-    }, [pathname]);
+      }, [pathname]);
+  
+      return null;
+    }
 
-    return null;
-}
   return (
     <>
       <Router>
         <div className="">
           <ScrollToTop></ScrollToTop>
-          <Navbar />
+          {/* {!shouldHideNavFooter && <Navbar />} */}
+          <Navbar></Navbar>
           <Routes>
-            <Route path="/" element={<Home/>} />
-            <Route path="/Search" element={<Search/>} />
-            <Route path="/About" element={<About/>} />
-            <Route path="/FacultyList" element={<FacultyList/>} />
-            <Route path="/Contact" element={<Contact/>} />
-            <Route path="/Syllabus" element={<SyllabusPage/>} />
-            <Route path="/Login" element={<Login/>} />
+            <Route path="/" element={<Home />} />
+            <Route path="/Search" element={<Search />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/FacultyList" element={<FacultyList />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Syllabus" element={<SyllabusPage />} />
+            <Route path="/Login" element={<Login />} />
+            <Route path="/Notes" element={<Notes></Notes>} />
           </Routes>
           <Footer></Footer>
         </div>

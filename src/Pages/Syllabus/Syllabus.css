@@ -5,7 +5,7 @@
     margin: auto;
     padding: 20px 0;
     border-radius: 1rem;
-    
+    color: var(--primary-color);
 }
 .mandatory{
     color: red;

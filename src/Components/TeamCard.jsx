@@ -18,13 +18,13 @@ function TeamCard({Tdata}){
                         </div>
                         <div className="teamSocioAcc">
                             <Link target="_blank" to={Tdata.Github}>
-                                <Github size={20} strokeWidth={2} color="black"/>
+                                <Github className="github" size={20} strokeWidth={2}/>
                             </Link>
                             <Link target="_blank" to={Tdata.linkedin}>
-                                <Linkedin size={20} strokeWidth={2} color="black"/>
+                                <Linkedin className="linkedin" size={20} strokeWidth={2} />
                             </Link>
                             <Link target="_blank" to={Tdata.instagram}>
-                                <Instagram size={20} strokeWidth={2} color="black"/>
+                                <Instagram className="insta" size={20} strokeWidth={2}/>
                             </Link>
                         </div>
                     </div>

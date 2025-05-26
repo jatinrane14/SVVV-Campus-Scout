@@ -33,7 +33,7 @@ function Search() {
     <div className="search">
       <h2 className='searchhead'>Search Faculty</h2>
       <div className='search-input'>
-        <input type="text" placeholder="Search by name, department or Expertise..." onChange={handleSearch} className="search-input" />
+        <input type="text" placeholder="Search by name, department or Expertise..." onChange={handleSearch} className="fac-srch-input-fld" />
       </div>
       {/* Ternary operation if the length of the  result is greator than 0 then card is created otherwise if will check if the give some input or not if input is given but the length of the result of 0 then "No result found is printed otherwise "Start typing to search.." message eill be shown" */}
       <div className='resultContainer'>
@@ -71,8 +71,13 @@ function Search() {
                     </div>
                   ))}
                 </div>
+                  <div>
+              <button>Contact</button>
+              <button>Contact</button>
+            </div>
               </div>
             ))}
+            
           </div>
         ) : searchTerm ? (<p className="othermsgres">No results found</p>
         ) : (

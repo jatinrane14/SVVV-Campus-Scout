@@ -1,7 +1,7 @@
 import Card from '../../Components/FeatureCard.jsx';
 import "./Home.css"
+// import SvvvBuilding from '../../assets/image.jpeg';
 function Home() {
-
     return (
         <>
             <main>

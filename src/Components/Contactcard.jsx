@@ -35,6 +35,7 @@ function Contactcard({ ContD }) {
                         </div>
                     </div>
                 </div>
+                
             </div>
         </>
     );

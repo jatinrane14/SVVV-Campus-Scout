@@ -3,9 +3,10 @@
     margin: 0;
 }
 nav{
-    background-color: #56affa;
+    background-color: var(--primary-nav-bg);
+    /* background-color: #56affa; */
     /* background-color: #fff; */
-    color: white;
+    color: var(--primart-nav-links);
     /* color: #56affa; */
     padding: 10px;
     /* width: 100%; */
@@ -38,7 +39,7 @@ nav{
 }
 .navlink{  
     align-items: center;
-    color: aliceblue;
+    color: var(--primary-bg-color);
     text-decoration: none;
     opacity: 0.8;
     transition: 1s;
@@ -61,7 +62,7 @@ nav{
     left: 0;
     top: 56px;
     height: 100vh;
-    background-color: white;
+    background-color: var(--primary-nav-mob-bg);
 }
 .mob-navLinkcon{
     display: flex;
@@ -70,12 +71,12 @@ nav{
     row-gap: 20px;
 }
 .mobileNav span{
-    color: black;
+    color: var(--primary-color);
 }
 .mobnavlink{
     padding: 10px;
     text-align: center;
-    background-color: rgb(247, 247, 247);
+    background-color: var(--primary-btn-bg);
     border-radius: 5px;
 }
 .mobnavlink:last-child{

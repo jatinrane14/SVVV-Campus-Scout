@@ -16,9 +16,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(../assets/image.jpeg);
     /* background-image: url(../assets/svvvBuilding.jpg); */
     /* box-shadow: inset 1px 1px 40000px #56affa; */
+    background-image: url(../../assets/image.jpeg) !important;
 } 
 #benefit-section{
     margin-top: 30px;

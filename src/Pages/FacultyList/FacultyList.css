@@ -8,7 +8,7 @@
 }
 .fl-def>h3{
     text-align: left;
-    
+    color: var(--primary-color);
 }
 
 .sub-fl-btncon{
@@ -47,7 +47,7 @@
     flex-direction: column;
     gap: 5px;
     border: 1px solid rgba(95, 95, 104, 0.2) ;
-
+    color: var(--primary-color);
 }
 .faculty-img{
     display: flex;
@@ -62,7 +62,7 @@
     border-radius: 50%;
 }
 .faculty-name{
-    color: #7d21a0;
+    color: var(--primary-card-heading);
     text-align: center;
     margin: 5px 0;
 }

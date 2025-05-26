@@ -1,41 +1,45 @@
-.mainTeamContainer{
-    /* border:1px solid black; */
-    max-width: 1100px;
-    margin: auto;
-    margin-top: 20px;
-
+.mainTeamContainer {
+  /* border:1px solid black; */
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 20px;
+  color: var(--primary-color);
 }
 .mainTeamContainer {
-    /* text-align: center;  */
-    margin-bottom: 10px;
+  /* text-align: center;  */
+  margin-bottom: 10px;
 }
-.headparacon{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.headparacon {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.teamhead{
-    font-size: 3vw;
-    text-align: center;
-    color: #007aff;
+.teamhead {
+  font-size: 3vw;
+  text-align: center;
+  color: #007aff;
 }
-.submaintmcon{
-    padding: 20px;
-    gap: 20px;
-    display: flex;
-    flex-direction: column;
+.submaintmcon {
+  padding: 20px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
-.teampara{
-    text-align: center;
+.teampara {
+  text-align: center;
 }
-@media screen and (max-width:665px) {
-    
+.descptionTm p{
+  color: var(--primary-color);
 }
-@media screen and (max-width:416px){
-    .teamhead{
-        font-size: 8vw;
-    }
+.linkedin, .insta, .github{
+    color: aliceblue;
+} 
+@media screen and (max-width: 665px) {
 }
-@media screen and (min-width:415px){
-    
+@media screen and (max-width: 416px) {
+  .teamhead {
+    font-size: 8vw;
+  }
+}
+@media screen and (min-width: 415px) {
 }

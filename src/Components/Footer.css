@@ -1,7 +1,8 @@
 footer{
-    background-color: #f4faff;
+    background-color: var(--primary-bg);
     /* padding: 30px ; */
     margin-top: 40px;
+    color: var(--primary-color);
 }
 .footer-links{
     padding: 30px 40px;
@@ -32,6 +33,7 @@ footer{
 .footer-con p{
     font-size: 18px;
     margin-bottom: 20px;
+    color: var(--primary-color);
 }
 .footer-con{
     padding-right:  40px;
@@ -39,7 +41,7 @@ footer{
 }
 .footer-childs ul li a{
     text-decoration: none;
-    color: #000;
+    color: var(--primary-color);
 }
 .footer-childs h2{
     font-size: 18px;
@@ -81,5 +83,7 @@ footer{
     text-align: center;
     /* margin-bottom: 20px; */
     padding : 0 10px 20px  10px;
+
+    color: var(--primary-color);
 }
 

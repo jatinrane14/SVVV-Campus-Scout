@@ -40,7 +40,7 @@ function Footer() {
                             <li><Link target='_blank' to="https://drive.google.com/file/d/1fVzFxiU6Z7inVE_GgiUWtwebjMSY2GNQ/view?usp=sharing">Academic Calender</Link></li>
                             <li><Link target='_blank' to="https://docs.google.com/forms/d/e/1FAIpQLSf0aH9houK3qlxPtCl6F8zHuzGSRJ7cYwIck5Z2utwIvmUZIg/viewform">Feedback</Link></li>
                             <li><Link to={"/Contact"}>Contact Information</Link></li>
-                            <li><Link to="#">Terms & Conditions</Link></li>
+                            <li><Link to="#">Notes</Link></li>
                         </ul>
                     </div>
                     {/* <div className=" footer-childs">
